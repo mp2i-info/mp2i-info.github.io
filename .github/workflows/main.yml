@@ -35,5 +35,6 @@ jobs:
       - run: |
           for changed_file in ${{ steps.files.outputs.all }}; do
             echo "${changed_file}.";
-            ocaml ${changed_file}
+            gcc ${changed_file} -o test;
+            ./test
           done
