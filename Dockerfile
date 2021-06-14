@@ -1,4 +1,3 @@
-RUN pip install --no-cache-dir notebook==5.*
 FROM akabe/ocaml-jupyter-datascience:centos_ocaml4.05.0
 
 ARG NB_USER=jovyan
