@@ -1,1 +1,1 @@
-FROM ocaml-jupyter-datascience:centos_ocaml4.05.0
+FROM akabe/ocaml-jupyter-datascience:centos_ocaml4.05.0
