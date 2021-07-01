@@ -3,7 +3,6 @@ FROM ocaml/opam:ubuntu-20.10-ocaml-4.08
 RUN apt-get update && apt install -y software-properties-common && add-apt-repository ppa:avsm/ppa \
     && apt install -y --no-install-recommends zlib1g-dev libffi-dev libgmp-dev libzmq5-dev pkg-config \
     build-essential curl sudo  ocaml opam python3-pip \
-    && rm -rf /var/lib/apt/lists/ \
     && curl -sSL https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o /tmp/miniconda.sh \
     && bash /tmp/miniconda.sh -bfp /usr/local \
     && rm -rf /tmp/miniconda.sh \
