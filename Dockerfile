@@ -9,11 +9,7 @@ RUN apt-get update && apt install -y software-properties-common && add-apt-repos
     && pip3 install notebook sos-notebook \
     && python3 -m sos_notebook.install \
     && conda install -c conda-forge xeus-cling
-
-RUN useradd -rm -d /home/student -G sudo -s /bin/bash student 
-USER student
-WORKDIR /home/student
-
+    
 RUN opam init -a -y --disable-sandboxing \
     && opam update \
     && opam upgrade -y \
@@ -21,3 +17,8 @@ RUN opam init -a -y --disable-sandboxing \
     && opam install -y jupyter \
     && opam exec -- ocaml-jupyter-opam-genspec \
     && jupyter kernelspec install --user --name ocaml-jupyter "$(opam config var share)/jupyter"
+
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
