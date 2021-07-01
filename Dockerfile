@@ -13,11 +13,9 @@ RUN apt-get update && apt install -y software-properties-common && add-apt-repos
 RUN opam init -a -y --disable-sandboxing \
     && opam update \
     && opam upgrade -y \
-    && eval $(opam env) \
     && opam install -y jupyter \
+    && eval $(opam env) \
     && opam exec -- ocaml-jupyter-opam-genspec \
-    && jupyter kernelspec install --user --name ocaml-jupyter "$(opam config var share)/jupyter"
+    && jupyter kernelspec install --name ocaml-jupyter "$(opam config var share)/jupyter"
 
-RUN echo '#use "topfind";;' > /home/opam/.ocamlinit
-
-COPY --chown=opam . /home/opam
+ENV HOME=/tmp
