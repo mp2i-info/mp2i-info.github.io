@@ -18,7 +18,6 @@ RUN opam init -a -y --disable-sandboxing \
     && opam exec -- ocaml-jupyter-opam-genspec \
     && jupyter kernelspec install --user --name ocaml-jupyter "$(opam config var share)/jupyter"
 
-COPY . ${HOME}
-USER root
-RUN chown -R ${NB_UID} ${HOME}
-USER ${NB_USER}
+RUN echo '#use "topfind";;' > /home/opam/.ocamlinit
+
+COPY --chown=opam . /home/opam
