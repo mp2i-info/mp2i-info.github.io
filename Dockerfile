@@ -1,4 +1,4 @@
-FROM ocaml/opam:ubuntu-20.10-ocaml-4.08
+FROM ubuntu
 
 RUN apt-get update && apt install -y software-properties-common && add-apt-repository ppa:avsm/ppa \
     && apt install -y --no-install-recommends zlib1g-dev libffi-dev libgmp-dev libzmq5-dev pkg-config \
