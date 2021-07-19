@@ -43,9 +43,10 @@ Il est possible d'avoir une expression (un calcul) à droite d'une définition :
 let a = 1 + 2 + 3 + 4 (* la valeur à droite de = est calculée puis mise dans a *)
 ```
 
-## Variable local
+### Variable locale
 
-Il est possible de définir une variable locale en utilisant la forme `let y = in ...`. `y` est alors seulement accessible dans `...`. 
+Il est possible de définir une variable locale en utilisant la forme `let y = in ...`  
+`y` est alors seulement accessible dans `...`
 
 ```ocaml
 let y = -1 in y (* y est accessible dans le in *)
@@ -55,6 +56,31 @@ let y = -1 in y (* y est accessible dans le in *)
 y (* y n'est pas accessible hors du in *)
 ```
 
-```ocaml
+### Variables numériques
 
+Nous avons déjà vu l'addition et la soustraction de 2 entiers. Il est aussi possible de multiplier :
+
+```ocaml
+3 * 14
 ```
+
+On peut effectuer la division **entière** de 2 entiers :
+
+```ocaml
+3 / 2 (* division entière *)
+```
+
+La division entière de $x$ par $y$ est, par définition, la partie entière de $\frac{x}{y}$.  
+Dans l'exemple ci-dessus, `3 / 2` est donc la partie entière de $\frac{3}{2}$. 
+
+```ocaml
+sqrt
+```
+
+En plus des entiers (`int`), OCaml permet de définir des nombres à virgules (`float`, pour flottant) :
+
+```ocaml
+let pi = 3.141592
+```
+
+Attention : c'est le point (.) et non pas la virgule qui est utilisé pour les flottants.
