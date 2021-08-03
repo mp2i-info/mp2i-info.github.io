@@ -13,6 +13,8 @@ jupyter:
     name: ocaml-jupyter
 ---
 
+# Introduction au langage OCaml
+
 ## Variables
 
 ### Définition
@@ -25,7 +27,7 @@ Une variable possède 3 propriétés:
 La ligne suivante définie une variable `x` en OCaml :
 
 ```ocaml
-let x = 42
+let f x = x * 3;;
 ```
 
 OCaml nous répond que `x` a pour valeur 42 et est de type `int` (*integer*, c'est à dire entier).
@@ -71,7 +73,7 @@ On peut effectuer la division **entière** de 2 entiers :
 ```
 
 La division entière de $x$ par $y$ est, par définition, la partie entière de $\frac{x}{y}$.  
-Dans l'exemple ci-dessus, `3 / 2` est donc la partie entière de $\frac{3}{2}$. 
+Dans l'exemple ci-dessus, `3 / 2` est donc la partie entière de $\frac{3}{2} = 1.5$, c'est à dire $1$. 
 
 ```ocaml
 sqrt
@@ -84,3 +86,7 @@ let pi = 3.141592
 ```
 
 Attention : c'est le point (.) et non pas la virgule qui est utilisé pour les flottants.
+
+```ocaml
+
+```
