@@ -16,7 +16,7 @@ jupyter:
 # Introduction au langage OCaml
 
 ## Variables
-
+todo
 ### Définition
 
 Une variable possède 3 propriétés:
