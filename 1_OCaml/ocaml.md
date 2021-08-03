@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.11.4
+      jupytext_version: 1.11.4+dev
   kernelspec:
     display_name: OCaml default
     language: OCaml
@@ -27,7 +27,7 @@ Une variable possède 3 propriétés:
 La ligne suivante définie une variable `x` en OCaml :
 
 ```ocaml
-let f x = x * 3;;
+let x = 42;;
 ```
 
 OCaml nous répond que `x` a pour valeur 42 et est de type `int` (*integer*, c'est à dire entier).
@@ -75,9 +75,6 @@ On peut effectuer la division **entière** de 2 entiers :
 La division entière de $x$ par $y$ est, par définition, la partie entière de $\frac{x}{y}$.  
 Dans l'exemple ci-dessus, `3 / 2` est donc la partie entière de $\frac{3}{2} = 1.5$, c'est à dire $1$. 
 
-```ocaml
-sqrt
-```
 
 En plus des entiers (`int`), OCaml permet de définir des nombres à virgules (`float`, pour flottant) :
 
