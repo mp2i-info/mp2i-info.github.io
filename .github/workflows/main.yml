@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - uses: actions/setup-python@v2
         with:
           python-version: 3.8
@@ -30,4 +33,3 @@ jobs:
       - uses: ad-m/github-push-action@master
         with:
           branch: main
-# 
