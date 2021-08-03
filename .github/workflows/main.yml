@@ -1,8 +1,8 @@
 name: jupytext
-on: workflow_dispatch
-#  push:
-#    branches:
-#      - dev
+on: 
+  push:
+    branches:
+      - dev
 
 jobs:
   jupytext:
@@ -30,3 +30,4 @@ jobs:
       - uses: ad-m/github-push-action@master
         with:
           branch: main
+# 
