@@ -15,7 +15,6 @@ jupyter:
 
 # Introduction au langage OCaml
 
-Todo
 ## Variables
 
 ### Définition
