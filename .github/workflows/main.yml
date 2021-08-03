@@ -19,14 +19,17 @@ jobs:
       - id: files
         uses: jitterbit/get-changed-files@v1
       - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            echo "${changed_file}.";
-            jupytext --to ipynb ${changed_file}
+          for file in ${{ steps.files.outputs.all }}; do
+            if [[ $file == *.md ]]
+            then
+              echo "${file}.";
+              jupytext --to ipynb ${file}
+            fi
           done
       - run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git merge main
+          git merge origin/main
           git add -A
           git commit -m "Convert to ipynb"
       - uses: ad-m/github-push-action@master
