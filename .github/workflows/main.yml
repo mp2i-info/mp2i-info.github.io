@@ -23,7 +23,7 @@ jobs:
             if [[ $file == *.md ]]
             then
               echo "${file}.";
-              jupytext --to ipynb ${file}
+              jupytext --to ipynb --execute ${file}
             fi
           done
       - run: |

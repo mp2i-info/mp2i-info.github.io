@@ -1,7 +1,6 @@
 ---
 jupyter:
   jupytext:
-    formats: ipynb,md
     text_representation:
       extension: .md
       format_name: markdown
@@ -13,10 +12,11 @@ jupyter:
     name: ocaml-jupyter
 ---
 
+<!-- #region -->
 # Introduction au langage OCaml
 
 ## Variables
-todo
+
 ### Définition
 
 Une variable possède 3 propriétés:
@@ -24,10 +24,16 @@ Une variable possède 3 propriétés:
 - une valeur (exemple : 42)
 - un type (exemple : entier)
 
-La ligne suivante définie une variable `x` en OCaml :
+En OCaml, on définit une variable de la façon suivante :
+```ocaml
+let variable = valeur
+```
+
+Par exemple, pour définir une variable `x` valant 42 :
+<!-- #endregion -->
 
 ```ocaml
-let x = 42;;
+let x = 42
 ```
 
 OCaml nous répond que `x` a pour valeur 42 et est de type `int` (*integer*, c'est à dire entier).
@@ -55,7 +61,7 @@ let y = -1 in y (* y est accessible dans le in *)
 ```
 
 ```ocaml
-y (* y n'est pas accessible hors du in *)
+(* utiliser y ici donnerait une erreur  *)
 ```
 
 ### Variables numériques
@@ -84,6 +90,34 @@ let pi = 3.141592
 
 Attention : c'est le point (.) et non pas la virgule qui est utilisé pour les flottants.
 
-```ocaml
 
+Il est possible de calculer $x^y$, où $x$ et $y$ sont des **flottants** avec `**` :
+
+```ocaml
+2.718**3.14 (* x puissance y *)
 ```
+
+Il n'est pas possible d'utiliser `**` sur des entiers. Pour calculer la puissance d'un entier par un autre, on verra plus tard un algorithme appelé **exponentiation rapide**.
+
+
+**Exercice 1**
+1. Stocker la valeur $42^2$ dans une variable $a$, en utilisant `*`.
+2. En déduire la valeur de $42^4$.
+3. Calculer la valeur de $2^{10}$ en utilisant le moins de multiplications possibles.
+
+
+## Présentation du code
+
+Contrairement à Python, l'indentation du code n'a pas d'importance en OCaml. En effet les espaces et sauts de lignes sont ignorés :
+
+```ocaml
+let a 
+  =
+3
+```
+
+ Il est cependant très important d'avoir un code lisible et aéré, et ce sera pris en compte dans la notation (même si ça n'apparaît pas toujours explicitement).
+
+
+
+Pour séparer deux instructions consécutives (ce qui arrivera rarement, on aurait plus souvent des instructions imbriquées avec `in`), on utilisera `;`.
