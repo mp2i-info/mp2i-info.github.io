@@ -88,7 +88,16 @@ En plus des entiers (`int`), OCaml permet de définir des nombres à virgules (`
 let pi = 3.141592
 ```
 
+Les opérateurs d'addition, soustraction, multiplication, division doivent s'utiliser avec un `.` (point). Par exemple :
+
+```ocaml
+pi +. 2.618 (* noter le . après + *)
+```
+
 Attention : c'est le point (.) et non pas la virgule qui est utilisé pour les flottants.
+
+
+
 
 
 Il est possible de calculer $x^y$, où $x$ et $y$ sont des **flottants** avec `**` :
@@ -112,6 +121,43 @@ Il n'est pas possible d'utiliser `**` sur des entiers. Pour calculer la puissanc
 2. Stocker dans une variable $delta$ le discriminant de l'équation $ax^2 + bx + c = 0$.
 3. Calculer toutes les solutions de l'équation précédente.
 
+
+## Booléens
+
+
+Une valeur booléenne est soit true (vrai) soit false (faux). Par exemple, on peut tester l'égalité de deux valeurs avec `=` :
+
+```ocaml
+3 = 1 + 2
+```
+
+On peut comparer des valeurs numériques avec `<` (inférieur strict), `>`, `<=` (inférieur ou égal), `>=`, `<>` (différent)... :
+
+```ocaml
+2 < 1
+```
+
+Les opérateurs `&&` (et), `||` (ou), `not` permettent de combiner des conditions :
+
+```ocaml
+1 < 2 && 2 < 3
+```
+
+```ocaml
+let a = 0 in
+a <> 0 || a > 3 (* test si a est différent de 0 ou supérieur à 3 *)
+```
+
+<!-- #region -->
+**Exercice**
+
+1. Quelle est la valeur du code suivant?
+```ocaml
+let a = 42 in
+not (a = 12 && (a < 10 || a > 30))
+```
+2. Comment aurait-on pu écrire `not (a = 12 && (a < 10 || a > 30))` sans `not`?
+<!-- #endregion -->
 
 ## Présentation du code
 
