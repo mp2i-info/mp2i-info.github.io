@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.8
       - run: |
-          pip install git+git://github.com/fortierq/jupytext nbconvert
+          pip install git+git://github.com/fortierq/jupytext
       - id: files
         uses: jitterbit/get-changed-files@v1
       - run: |
@@ -23,7 +23,7 @@ jobs:
             if [[ $file == *.md ]]
             then
               echo "${file}.";
-              jupytext --to ipynb --execute ${file}
+              jupytext --to ipynb ${file}
             fi
           done
       - run: |
