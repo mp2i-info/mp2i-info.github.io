@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.8
       - run: |
-          pip install git+git://github.com/fortierq/jupytext
+          pip install git+git://github.com/fortierq/jupytext nbconvert
       - id: files
         uses: jitterbit/get-changed-files@v1
       - run: |
