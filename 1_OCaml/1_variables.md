@@ -106,6 +106,13 @@ Il n'est pas possible d'utiliser `**` sur des entiers. Pour calculer la puissanc
 3. Calculer la valeur de $2^{10}$ en utilisant le moins de multiplications possibles.
 
 
+**Exercice 2**
+
+1. Stocker dans 3 variables $a$, $b$, $c$ les valeurs 2, 5 et 3. On pourra utiliser let a, b, c = ..., ..., ... pour définir 3 variable simultanément. 
+2. Stocker dans une variable $delta$ le discriminant de l'équation $ax^2 + bx + c = 0$.
+3. Calculer toutes les solutions de l'équation précédente.
+
+
 ## Présentation du code
 
 Contrairement à Python, l'indentation du code n'a pas d'importance en OCaml. En effet les espaces et sauts de lignes sont ignorés :
