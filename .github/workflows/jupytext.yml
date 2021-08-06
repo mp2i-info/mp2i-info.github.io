@@ -5,15 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/setup-python@v1
         with:
           python-version: 3.8
       - run: pip install jupytext
       - run: |
           find . -name '*.ipynb' | xargs jupytext --to md
-      - name: Check for modified files
-        id: git-check
-        run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
       - run: |
           git config --global user.name 'github-actions' 
           git config --global user.email 'github-actions@github.com' 
