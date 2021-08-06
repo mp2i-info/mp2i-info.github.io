@@ -4,17 +4,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
         with:
           python-version: 3.8
       - run: pip install jupytext
       - run: |
-          find . -name '*.md' | xargs jupytext --to ipynb
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
-          git checkout $GITHUB_HEAD_REF
-          git add *.ipynb
-          git commit -am "Convert ipynb to md"
-          git push
+          find . -name '*.ipynb' | xargs jupytext --to md
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Convert ipynb to md
+          title: Convert ipynb to md
+          body: Convert ipynb to md
+          base: main
