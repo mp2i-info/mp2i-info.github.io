@@ -20,4 +20,4 @@ jobs:
           title: Convert ipynb to md
           body: Convert ipynb to md
           reviewers: fortierq
-          branch: rendu
+          base: main
