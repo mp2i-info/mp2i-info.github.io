@@ -11,10 +11,13 @@ jobs:
       - run: pip install jupytext
       - run: |
           find . -name '*.ipynb' | xargs jupytext --to md
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
-        with:
-          commit-message: Convert ipynb to md
-          title: Convert ipynb to md
-          body: Convert ipynb to md
-          base: main
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
+      - run: |
+          git config --global user.name 'github-actions' 
+          git config --global user.email 'github-actions@github.com' 
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Automated autoyapf fixes"
+          git push
+
