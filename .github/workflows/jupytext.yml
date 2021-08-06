@@ -4,7 +4,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v1
         with:
           python-version: 3.8
@@ -18,4 +20,4 @@ jobs:
           title: Convert ipynb to md
           body: Convert ipynb to md
           reviewers: fortierq
-          branch: main
+          branch: rendu
