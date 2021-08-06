@@ -11,10 +11,11 @@ jobs:
       - run: pip install jupytext
       - run: |
           find . -name '*.md' | xargs jupytext --to ipynb
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
-          git checkout $GITHUB_HEAD_REF
-          git add *.ipynb
-          git commit -am "Convert ipynb to md"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Convert ipynb to md
+          title: Convert ipynb to md
+          body: Convert ipynb to md
+          reviewers: fortierq
+          branch: main
