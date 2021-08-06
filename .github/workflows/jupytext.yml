@@ -13,13 +13,6 @@ jobs:
       - run: pip install jupytext
       - run: |
           find . -name '*.ipynb' | xargs jupytext --to md
-      - run: |
-          git config --global user.name 'github-actions' 
-          git config --global user.email 'github-actions@github.com' 
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          find . -name '*.md' | xargs git add
-          git commit -am "Automated autoyapf fixes"
-          git push
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
