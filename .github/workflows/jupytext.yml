@@ -12,7 +12,7 @@ jobs:
           python-version: 3.8
       - run: pip install jupytext
       - run: |
-          find . -name '*.md' | xargs jupytext --to ipynb
+          find . -name '*.ipynb' | xargs jupytext --to md
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
