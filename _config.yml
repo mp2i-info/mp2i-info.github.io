@@ -1,0 +1,21 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title                       : Informatique Tronc Commun en CPGE  # The title of the book. Will be placed in the left navbar.
+author                      : Quentin Fortier  # The author of the book
+copyright                   : "2021"  # Copyright year to be placed in the footer
+logo                        : logo.png  # A path to the book logo
+execute:
+  execute_notebooks: force
+  allow_errors: true
+repository:
+  url                       : https://github.com/fortierq/itc/  # Online location of your book
+  path_to_book              : itc/
+  branch                    : master
+launch_buttons:
+  thebe                  : true
+  colab_url: "https://colab.research.google.com"

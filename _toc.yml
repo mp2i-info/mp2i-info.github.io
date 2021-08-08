@@ -1,0 +1,6 @@
+format: jb-article
+root: intro
+sections:
+- file: 1_OCaml/2_fonctions
+  sections:
+  - file: 1_OCaml/1_variables
