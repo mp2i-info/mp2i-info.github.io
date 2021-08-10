@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: s-weigand/trigger-mybinder-build@v1
         with:
-          target-repo: fortierq/MP2I_2021
+          target-repo: fortierq/MP2I_2021/main
