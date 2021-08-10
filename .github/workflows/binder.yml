@@ -1,0 +1,10 @@
+name: 'Trigger-Binder-build'
+on: workflow_dispatch
+
+jobs:
+  trigger-binder-build:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: s-weigand/trigger-mybinder-build@v1
+        with:
+          target-repo: fortierq/MP2I_2021/main

@@ -1,5 +1,16 @@
 FROM ubuntu
 
+ARG NB_USER=student
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
+ENV HOME /home/${NB_USER}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+
 RUN apt-get update && apt install -y software-properties-common && add-apt-repository ppa:avsm/ppa \
     && apt install -y --no-install-recommends zlib1g-dev libffi-dev libgmp-dev libzmq5-dev pkg-config \
     build-essential curl sudo  ocaml opam python3-pip \
@@ -18,4 +29,8 @@ RUN opam init -a -y --disable-sandboxing \
     && opam exec -- ocaml-jupyter-opam-genspec \
     && jupyter kernelspec install --name ocaml-jupyter "$(opam config var share)/jupyter"
 
-ENV HOME=/tmp
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+WORKDIR ${HOME}
