@@ -28,7 +28,7 @@ RUN opam init -a -y --disable-sandboxing \
     && eval $(opam env) \
     && opam install -y jupyter \
     && opam exec -- ocaml-jupyter-opam-genspec \
-    && jupyter kernelspec install --user --name ocaml-jupyter "$(opam config var share)/jupyter"
+    && jupyter kernelspec install --name ocaml-jupyter "$(opam config var share)/jupyter"
 
 COPY . ${HOME}
 USER root
