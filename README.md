@@ -1,6 +1,6 @@
 Pour utiliser Jupyter :
 
-# En cours : Binder (pour éviter de surcharger mon serveur JupyterHub)
+# En cours d'informatique : Binder
 [![Binder](https://img.shields.io/badge/MP2I-FSM-brightgreen)](http://35.246.154.73/hub/user-redirect/git-sync?repo=https%3A%2F%2Fgithub.com%2Ffortierq%2Fmp2i-2021&urlpath=lab%2Ftree%2Fmp2i-2021%2F&branch=main)  
 **Attention** : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.
 
