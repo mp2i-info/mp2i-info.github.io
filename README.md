@@ -10,7 +10,7 @@ Vous pouver aussi poser des questions dans l'onglet Discussions sur GitHub.
 **Attention** : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.
 
 ## En TP/TD : JupyterHub [![Binder](https://img.shields.io/badge/Launch-JHub-brightgreen)](http://35.246.154.73/hub/user-redirect/git-sync?repo=https%3A%2F%2Fgithub.com%2Ffortierq%2Fmp2i-2021&urlpath=lab%2Ftree%2Fmp2i-2021%2F&branch=main)  
-L'accès se fait par identification : il faut d'abord que je vous ajoute au groupe. Les données sont normalement sauvegardées sur le serveur.
+Les données sont normalement sauvegardées sur le serveur. L'accès se fait par identification : il faut d'abord que je vous ajoute au groupe de la classe. Pour cela merci de mettre une étoile sur cette page.
 
 ## Optionnel et plus compliqué : Docker
 Avec Docker, vous pouvez lancer Jupyter avec tous les outils installés en local. Jupyter est alors plus rapide à lancer et n'a pas besoin d'Internet, mais l'installation est un peu compliquée.
