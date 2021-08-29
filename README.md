@@ -1,3 +1,5 @@
+Séance du lundi 30 août : 0_intro/stage/exos_python.ipynb
+
 # Discord
 
 **Merci utiliser votre nom/prénom comme pseudo sur Discord et GitHub**.  
