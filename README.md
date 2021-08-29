@@ -1,7 +1,9 @@
+Séance du lundi 30 août : 0_intro/stage/exos_python.ipynb
+
 # Discord
 
 **Merci utiliser votre nom/prénom comme pseudo sur Discord et GitHub**.  
-Serveur discord pour la classe : https://discord.gg/E7abJNbZ  
+Serveur discord pour l'informatique MP2I : https://discord.gg/E7abJNbZ  
 Vous pouver aussi poser des questions dans l'onglet Discussions sur GitHub.
 
 # Utiliser Jupyter
