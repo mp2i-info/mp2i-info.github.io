@@ -1,10 +1,4 @@
-Séances du jeudi 2 septembre : 0_intro/1_jupyter.ipynb puis 1_OCaml (dans l'ordre)
-
-# Discord
-
-**Merci utiliser votre nom/prénom comme pseudo sur Discord et GitHub**.  
-Serveur discord pour l'informatique MP2I : https://discord.gg/E7abJNbZ  
-Vous pouver aussi poser des questions dans l'onglet Discussions sur GitHub.
+**Séances du jeudi 2 septembre** : 0_intro/1_jupyter.ipynb puis 1_OCaml (dans l'ordre)
 
 # Utiliser Jupyter
 
@@ -28,7 +22,12 @@ Or copy and paste one of these URLs:
  or http://127.0.0.1:8888/lab?token=3c2893614dbd1935d3b63fd06f6975c8641a52c7e51e0321
 ```
 
-Références pour l'informatique :
+# Poser des questions
+
+- Serveur discord pour l'informatique MP2I : https://discord.gg/E7abJNbZ  
+- Onglet Discussions sur GitHub.
+
+# Références pour l'informatique
 
 - MP2I :
     - https://marcdefalco.github.io/
