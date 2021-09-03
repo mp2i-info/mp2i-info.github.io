@@ -31,6 +31,7 @@ Or copy and paste one of these URLs:
 # Références pour l'informatique
 
 - MP2I :
+    - [Programme officiel MP2I-MPI](https://cache.media.education.gouv.fr/file/SPE1-MEN-MESRI-4-2-2021/64/6/spe777_annexe_1373646.pdf)  
     - https://marcdefalco.github.io/
 
 - OCaml :
