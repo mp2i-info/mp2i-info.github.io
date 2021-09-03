@@ -1,4 +1,4 @@
-[**Cours du jeudi 2 septembre**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/1_jupyter.ipynb%26branch%3Dmain)
+[**Cours du jeudi 2 septembre**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F1_OCaml/1_variables.ipynb%26branch%3Dmain)
 
 # Utiliser Jupyter
 
@@ -31,6 +31,7 @@ Or copy and paste one of these URLs:
 # Références pour l'informatique
 
 - MP2I :
+    - [Programme officiel MP2I-MPI](https://cache.media.education.gouv.fr/file/SPE1-MEN-MESRI-4-2-2021/64/6/spe777_annexe_1373646.pdf)  
     - https://marcdefalco.github.io/
 
 - OCaml :
