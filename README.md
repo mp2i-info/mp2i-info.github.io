@@ -24,8 +24,6 @@ Or copy and paste one of these URLs:
 
 # Poser des questions
 
-- Serveur discord pour l'informatique MP2I : [![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/E7abJNbZ)
-  
 - Onglet Discussions sur GitHub.
 
 # Références pour l'informatique
