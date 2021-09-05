@@ -20,7 +20,7 @@ sudo apt install libcairo2-dev
 
 # (indispensable) initialise opam
 # A la fin, répondre y pour modification fichiers profile et ocamlinit
-opam init --disable-sandboxing
+opam init -y --disable-sandboxing
 
 # ocaml-jupyter
 opam install ocaml-lsp-server
