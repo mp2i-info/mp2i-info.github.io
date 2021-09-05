@@ -37,3 +37,4 @@ Or copy and paste one of these URLs:
 
 - Algorithmique :
     - https://jeffe.cs.illinois.edu/teaching/algorithms/
+    - https://web.stanford.edu/class/archive/cs/cs161/cs161.1138/
