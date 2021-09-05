@@ -37,5 +37,8 @@ mkdir .local/share
 mkdir .local/share/jupyter
 mkdir ~/.opam/default/share/jupyter
 
+# generate the kernel
+ocaml-jupyter-opam-genspec
+
 # kernel
 sudo jupyter kernelspec install --name ocaml-jupyter "$(opam config var share)/jupyter"
