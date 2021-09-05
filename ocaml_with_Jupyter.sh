@@ -1,3 +1,6 @@
+# cd to the correct dir
+cd ~
+
 # maj
 sudo apt update
 
