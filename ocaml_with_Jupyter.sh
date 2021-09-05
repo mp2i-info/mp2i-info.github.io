@@ -32,9 +32,7 @@ opam install jupyter-archimedes
 echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
 
 # hack because permission
-mkdir .local
-mkdir .local/share
-mkdir .local/share/jupyter
+mkdir -p .local/share/jupyter
 mkdir ~/.opam/default/share/jupyter
 
 # generate the kernel
