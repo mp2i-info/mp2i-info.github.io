@@ -18,16 +18,20 @@ sudo apt install pkg-config
 sudo apt install zlib1g-dev
 sudo apt install libcairo2-dev
 
-
 # (indispensable) initialise opam
 # A la fin, répondre y pour modification fichiers profile et ocamlinit
 opam init --disable-sandboxing
 
 # ocaml-jupyter
-opam install jupyter
 opam install ocaml-lsp-server
+opam install merlin
+opam install jupyter
+opam install jupyter-archimedes
 
-# hack
+# Start with no gui
+echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
+
+# hack because permission
 mkdir .local
 mkdir .local/share
 mkdir .local/share/jupyter

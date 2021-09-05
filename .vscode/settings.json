@@ -1,5 +1,6 @@
 {
     "ocaml.sandbox": {
         "kind": "global"
-    }
+    },
+    "jupyter.jupyterServerType": "remote"
 }
