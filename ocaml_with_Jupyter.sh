@@ -7,6 +7,9 @@ sudo apt update
 # jupyter
 sudo apt install jupyter
 
+# ocaml
+sudo apt install ocaml
+
 # opam
 sudo apt install opam
 
