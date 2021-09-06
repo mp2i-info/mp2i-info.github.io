@@ -1,4 +1,7 @@
-[**Cours du jeudi 2 septembre**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F1_OCaml/1_variables.ipynb%26branch%3Dmain)
+TP à rendre au plus tard mercredi soir pour le groupe 1 : [**1_OCaml/TP/TP1.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F1_OCaml/TP/TP1.ipynb%26branch%3Dmain)  
+Les 2 derniers exercices sont optionnels (un peu astucieux/difficiles)
+
+Consignes pour rendre le TP : [**0_intro/2_rendu_TP.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/2_rendu_TP.ipynb%26branch%3Dmain)
 
 # Utiliser Jupyter
 
