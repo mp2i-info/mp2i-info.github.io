@@ -4,6 +4,10 @@ Les 2 derniers exercices sont optionnels (un peu astucieux/difficiles)
 Consignes pour rendre le TP : [**0_intro/2_rendu_TP.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/2_rendu_TP.ipynb%26branch%3Dmain)  
 Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
 
+# Poser des questions
+
+- Onglet Discussions sur GitHub.
+
 # Utiliser Jupyter
 
 ## Binder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)  
@@ -25,7 +29,3 @@ Or copy and paste one of these URLs:
     http://9e0e7a819898:8888/lab?token=3c2893614dbd1935d3b63fd06f6975c8641a52c7e51e0321
  or http://127.0.0.1:8888/lab?token=3c2893614dbd1935d3b63fd06f6975c8641a52c7e51e0321
 ```
-
-# Poser des questions
-
-- Onglet Discussions sur GitHub.
