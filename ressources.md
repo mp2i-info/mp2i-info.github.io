@@ -6,6 +6,7 @@
 
 - OCaml :
     - https://cs3110.github.io/textbook/cover.html
+    - https://info-llg.fr/ (cours/exercices d'option informatique en MPSI/MP)
 
 - Algorithmique :
     - https://jeffe.cs.illinois.edu/teaching/algorithms/
