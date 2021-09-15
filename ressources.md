@@ -6,7 +6,9 @@
 
 - OCaml :
     - https://cs3110.github.io/textbook/cover.html
-    - https://info-llg.fr/ (cours/exercices d'option informatique en MPSI/MP)
+    - https://info-llg.fr/ (option informatique en MPSI/MP à LLG)
+    - http://jdreichert.fr/Enseignement/CPGE/ (option informatique en MPSI/MP à Albert Schweitzer)
+    - https://www.faidherbe.org/~informatique/ (option informatique en MPSI/MP à Faidherbe)
 
 - Algorithmique :
     - https://jeffe.cs.illinois.edu/teaching/algorithms/
