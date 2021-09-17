@@ -6,10 +6,13 @@
 
 - OCaml :
     - https://cs3110.github.io/textbook/cover.html
-    - https://info-llg.fr/ (option informatique en MPSI/MP à LLG)
-    - http://jdreichert.fr/Enseignement/CPGE/ (option informatique en MPSI/MP à Albert Schweitzer)
-    - https://www.faidherbe.org/~informatique/ (option informatique en MPSI/MP à Faidherbe)
 
+- Option informatique (MPSI/MP) :
+    - https://info-llg.fr/ (LLG)
+    - http://jdreichert.fr/Enseignement/CPGE/ (Albert Schweitzer)
+    - https://www.faidherbe.org/~informatique/ (Faidherbe)
+    - https://svartzjules.pagesperso-orange.fr/prepa/index.html (Masséna)
+   
 - Algorithmique :
     - https://jeffe.cs.illinois.edu/teaching/algorithms/
     - https://web.stanford.edu/class/archive/cs/cs161/cs161.1138/
