@@ -1,9 +1,9 @@
 A rendre au plus tard dimanche 19/09 : TP2
 
-[Code source du module List d'OCaml](https://github.com/ocaml/ocaml/blob/cce52acc7c7903e92078e9fe40745e11a1b944f0/stdlib/list.ml)
-
 **Consignes pour rendre le TP** : [**0_intro/2_rendu_TP.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/2_rendu_TP.ipynb%26branch%3Dmain)  
 Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
+
+[Code source du module List d'OCaml](https://github.com/ocaml/ocaml/blob/cce52acc7c7903e92078e9fe40745e11a1b944f0/stdlib/list.ml)
 
 # Poser des questions
 
