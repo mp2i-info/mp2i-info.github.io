@@ -2,10 +2,11 @@
 
 - MP2I :
     - [Programme officiel MP2I-MPI](https://cache.media.education.gouv.fr/file/SPE1-MEN-MESRI-4-2-2021/64/6/spe777_annexe_1373646.pdf)  
-    - https://marcdefalco.github.io/
+    - https://marcdefalco.github.io/ (Valbonne)
 
 - OCaml :
-    - https://cs3110.github.io/textbook/cover.html
+    - https://ocaml.org/releases/4.12/htmlman/coreexamples.html (documentation officielle)
+    - https://cs3110.github.io/textbook/cover.html (Cornell University)
 
 - Option informatique (MPSI/MP) :
     - https://info-llg.fr/ (LLG)
