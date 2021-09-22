@@ -22,3 +22,5 @@
 
 - [Facebook Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup)
 - [LeetCode](https://leetcode.com/) (compétition un samedi après-midi sur deux)
+- [Advent of code](https://adventofcode.com/)
+- [Projet Euler](https://projecteuler.net/)
