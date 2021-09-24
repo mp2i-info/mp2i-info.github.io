@@ -20,7 +20,7 @@ Il faut savoir refaire les algorithmes suivants. Pour cela, évitez de les appre
 - Échange de 2 références (`swap`).
 - Calculer la taille d'une liste.
 - Tester si un élément appartient à une liste, à un tableau.
-- Concaténer deux listes (réécrire `@`). Complexité O(n).
+- Concaténer deux listes (réécrire `@`).
 - Inverser une liste (rev) avec un accumulateur.
 - Trouver le minimum/maximum d'un tableau/d'une liste.
 - Calculer la somme d'un tableau/d'une liste.
