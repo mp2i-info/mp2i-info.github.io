@@ -9,7 +9,7 @@ Voici une liste (non exhaustive) de points à bien connaître pour le DS 1. Je m
 - Conditions : `&&`, `||`, `if`. Plutôt que `if a = true then true else false`, écrire `a`.
 - Tuples : création, décomposition.
 - Listes : Créer une liste avec `[...; ...]`. `e::l` renvoie une nouvelle liste avec l'élément `e` rajouté au début. Différentes possibilités de faire un `match ... with` sur une liste.
-- Tableaux (array) :`[|...; ...|] ou `Array.make n e` pour créer un tableau. Sur un tableau `t` : `Array.length t`, `t.(i)`, `t.(i) <- ...`
+- Tableaux (array) :`[|...; ...|]` ou `Array.make n e` pour créer un tableau. Sur un tableau `t` : `Array.length t`, `t.(i)`, `t.(i) <- ...`
 - Types : Reconnaître les différents types (tuples, fonctions, array ...). Être capable de trouver le type d'une fonction.
 - Boucle for, while. Parcourir un tableau avec un for.
 - **Complexité** (revu en cours mercredi prochain) : Notation O (définition mathématique et surtout, signification intuitive). Complexité d'un for, de 2 boucles for imbriquées, d'une fonction récursive/while en utilisant une équation de récurrence sur la complexité C(n). 
