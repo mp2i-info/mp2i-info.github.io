@@ -1,6 +1,6 @@
 A rendre ce dimanche : TP 4
 
-**Pour voir les commentaires sur votre TP, cliquez sur le bouton "ReviewNB" dans l'onglet "Pull requests"**
+**Pour voir les commentaires sur votre TP, cliquez sur le bouton "ReviewNB" dans l'onglet "Pull requests" ou dans le lien que vous recevez par mail**
 
 **Consignes pour rendre le TP** : [**0_intro/2_rendu_TP.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/2_rendu_TP.ipynb%26branch%3Dmain)  
 Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
