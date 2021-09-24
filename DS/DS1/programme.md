@@ -25,5 +25,5 @@ Il faut savoir refaire les algorithmes suivants. Pour cela, évitez de les appre
 - Trouver le minimum/maximum d'un tableau/d'une liste.
 - Calculer la somme d'un tableau/d'une liste.
 - Exponentiation rapide pour calculer a puissance n en complexité O(log(n)) (avec démonstration de la complexité).
-- Recherche par dichotomie dans un tableau trié de taille $n$ en complexité O(log(n)) (avec démonstration de la complexité).
-- Tri fusion d'une liste de taille $n$ en complexité O(n\log(n)) (avec démonstration de la complexité).
+- Recherche par dichotomie dans un tableau trié de taille n en complexité O(log(n)) (avec démonstration de la complexité).
+- Tri fusion d'une liste de taille n en complexité O(nlog(n)) (avec démonstration de la complexité).
