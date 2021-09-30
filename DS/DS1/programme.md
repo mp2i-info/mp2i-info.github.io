@@ -8,7 +8,7 @@ Voici une liste (non exhaustive) de points à bien connaître pour le DS 1. Je m
 - Fonctions : Définition, utilisation. Renvoyer une valeur avec une fonction (valeur de la dernière instruction). Dans le cas d'une boucle `for`, utiliser une référence pour renvoyer une valeur. Fonctions récursives : cas de base et cas général. Les appels récursifs doivent rapprocher du cas du base (sinon il y a appels récursifs infinis).
 - Conditions : `&&`, `||`, `if`. Plutôt que `if a = true then true else false`, écrire `a`.
 - Tuples : création, décomposition.
-- Listes : Créer une liste avec `[...; ...]`. `e::l` renvoie une nouvelle liste avec l'élément `e` rajouté au début. Différentes possibilités de faire un `match ... with` sur une liste. Impossibilité d'écrire ~~l.(i)~~.  
+- Listes : Créer une liste avec `[...; ...]`. `e::l` renvoie une nouvelle liste avec l'élément `e` rajouté au début. Différentes possibilités de faire un `match ... with` sur une liste. Impossibilité d'écrire ~~`l.(i)`~~.  
 - Tableaux (array) :`[|...; ...|]` ou `Array.make n e` pour créer un tableau. Sur un tableau `t` : `Array.length t`, `t.(i)`, `t.(i) <- ...`
 - Types : Reconnaître les différents types (tuples, fonctions, array ...). Être capable de trouver le type d'une fonction.
 - Boucle for, while. Parcourir un tableau avec un for.
