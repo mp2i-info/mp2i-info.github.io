@@ -6,7 +6,7 @@ Voici une liste (non exhaustive) de points à bien connaître pour le DS 1. Je m
 
 - Variables : Différence entre valeur, type et nom de variable. Variables locales (avec `in`). Définition, utilisation d'une variable et d'une référence. int, float (erreur de calcul sur les flottants), unit. 
 - Fonctions : Définition, utilisation. Renvoyer une valeur avec une fonction (valeur de la dernière instruction). Dans le cas d'une boucle `for`, utiliser une référence pour renvoyer une valeur. Fonctions récursives : cas de base et cas général. Les appels récursifs doivent rapprocher du cas du base (sinon il y a appels récursifs infinis).
-- Conditions : `&&` (et), `||` (ou), `if`, `=`, `<>` (différent), `<`, `<=`. Plutôt que `if a = true then true else false`, écrire `if a`.
+- Conditions : `&&` (et), `||` (ou), `if`, `=`, `<>` (différent), `<`, `<=`. Plutôt que `if a = true then true else false`, écrire `a`.
 - Tuples : création, décomposition.
 - Listes : Créer une liste avec `[...; ...]`. `e::l` renvoie une nouvelle liste avec l'élément `e` rajouté au début. Différentes possibilités de faire un `match ... with` sur une liste. Impossibilité d'écrire ~~`l.(i)`~~.  
 - Tableaux (array) :`[|...; ...|]` ou `Array.make n e` pour créer un tableau. Sur un tableau `t` : `Array.length t`, `t.(i)`, `t.(i) <- ...`
