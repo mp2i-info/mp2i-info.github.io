@@ -7,4 +7,4 @@
 - **File** : opérations, implémentation avec 2 listes ou avec un tableau
 - **Dictionnaire** : opérations, implémentation avec **table de hachage**
 
-Important : Il faut aussi refaire les exercices
+Important : Il faut aussi refaire les exercices (les corrigés sont tous sur GitHub)
