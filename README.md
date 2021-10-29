@@ -1,4 +1,4 @@
-**[Programme du Concours Blanc](https://github.com/mp2i-fsm/mp2i-2021/blob/main/DS/DS2/programme.md) (maj 29/10)**
+**[Programme du Concours Blanc](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds2/programme.md) (maj 29/10)**
 
 **Travail à faire pendant les vacances : https://github.com/fortierq/mp2i-library**
 
