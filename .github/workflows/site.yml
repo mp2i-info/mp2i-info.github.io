@@ -18,7 +18,7 @@ jobs:
 
       - run: |
           pip install mkdocs-material mkdocs-jupyter
-          mkdir -p "docs"
+          mkdir -p docs
           TMP_DIR=$(mktemp -d)
           mv .git $TMP_DIR
           mv mkdocs.yml $TMP_DIR
@@ -30,6 +30,7 @@ jobs:
           for file in $(find . -type f -name "*.pdf"); do
             echo "<iframe src=$file height=600 width=1200></iframe>" > ${file%.*}.md
           done
+          cd ..
 
           mkdocs gh-deploy --force
 
