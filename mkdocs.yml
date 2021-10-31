@@ -11,6 +11,9 @@ nav:
     - 1_ocaml/6_boucles.ipynb
     - 1_ocaml/7_array_string.ipynb
     - 1_ocaml/8_types_construits.ipynb
+  - Analyse de programme:
+    - Complexité: 2_analyse_programme/1_complexite/complexite.md
+    - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
 plugins:
   - mkdocs-jupyter
 theme:

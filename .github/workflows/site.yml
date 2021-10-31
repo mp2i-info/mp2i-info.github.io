@@ -25,6 +25,12 @@ jobs:
           mv * docs/ || true
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
+          
+          cd docs
+          for file in $(find . -type f -name "*.pdf"); do
+            echo "<iframe src=$file height=600 width=1200></iframe>" > ${file%.*}.md
+          done
+
           mkdocs gh-deploy --force
 
       # - name: Pushes to another repository
