@@ -1,5 +1,5 @@
 site_name: MP2I au lycée Fénelon Sainte-Marie
-# site_url: https://example.com/
+site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 nav:
   - OCaml:
@@ -14,6 +14,13 @@ nav:
   - Analyse de programme:
     - Complexité: 2_analyse_programme/1_complexite/complexite.md
     - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
+    - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
+  - Structures séquentielles:
+    - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
+    - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
+    - TD 1 (pile et file): 3_structure_sequentielle/td/td_structures1_cor.pdf
+    - TD 2 (listes doublements chaînées): 3_structure_sequentielle/td/td_structures2_cor.pdf
+    - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.pdf
 plugins:
   - mkdocs-jupyter
 theme:
@@ -51,3 +58,5 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  logo: logo.png
+  favicon: logo.png
