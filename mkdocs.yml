@@ -25,6 +25,7 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
+  custom_dir: overrides
   logo: icon.png
   favicon: icon.png
   features:
