@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -22,7 +22,7 @@ jobs:
           TMP_DIR=$(mktemp -d)
           mv .git $TMP_DIR
           mv mkdocs.yml $TMP_DIR
-          mv . docs/
+          mv * docs/ || true
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
           mkdocs gh-deploy --force
