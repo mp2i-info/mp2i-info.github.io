@@ -25,6 +25,8 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
+  logo: icon.png
+  favicon: icon.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -58,5 +60,4 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: logo.png
-  favicon: logo.png
+  
