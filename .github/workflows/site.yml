@@ -26,10 +26,10 @@ jobs:
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
           
-          mkdir overrides
-          echo "{% extends "base.html" %}" >> overrides/main.html
-          echo "{% block htmltitle %}" >> overrides/main.html
-          echo "{% endblock %}" >> overrides/main.html
+          # mkdir overrides
+          # echo "{% extends "base.html" %}" >> overrides/main.html
+          # echo "{% block htmltitle %}" >> overrides/main.html
+          # echo "{% endblock %}" >> overrides/main.html
 
           cd docs
           URL=https://mp2i-fsm.github.io/mp2i-2021
