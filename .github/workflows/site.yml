@@ -29,7 +29,7 @@ jobs:
           cd docs
           URL=https://mp2i-fsm.github.io/mp2i-2021
           for file in $(find . -type f -name "*.pdf"); do
-            echo "<iframe src=$(basename $file)#zoom=FitW height=600 width=1200></iframe>" > ${file%.*}.md
+            echo "<iframe src=../$(basename $file)#zoom=FitW height=600 width=1200></iframe>" > ${file%.*}.md
           done
           cd ..
 
