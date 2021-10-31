@@ -1,12 +1,16 @@
 site_name: MP2I
 # site_url: https://example.com/
 repo_url: https://github.com/fortierq/mp2i-2021
-docs_dir: .
 nav:
-    - Home: index.md
-    - OCaml:
-      - 1_ocaml/1_variables.ipynb
-      - 1_ocaml/2_fonctions.ipynb
+  - Home: index.md
+  - OCaml:
+    - 1_ocaml/1_variables_cor.ipynb
+    - 1_ocaml/2_fonctions_cor.ipynb
+    - 1_ocaml/3_conditions_cor.ipynb
+    - 1_ocaml/4_recursivite_cor.ipynb
+    - 1_ocaml/5_structures_persistantes_cor.ipynb
+    - 1_ocaml/6_boucles_cor.ipynb
+    - 1_ocaml/7_array_string_cor.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
