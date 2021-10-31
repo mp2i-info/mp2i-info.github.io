@@ -28,9 +28,9 @@ jobs:
           
           cd docs
           mkdir overrides
-          cat "{% extends "base.html" %}" >> overrides/main.html
-          cat "{% block htmltitle %}" >> overrides/main.html
-          cat "{% endblock %}" >> overrides/main.html
+          echo "{% extends "base.html" %}" >> overrides/main.html
+          echo "{% block htmltitle %}" >> overrides/main.html
+          echo "{% endblock %}" >> overrides/main.html
 
           URL=https://mp2i-fsm.github.io/mp2i-2021
           for file in $(find . -type f -name "*.pdf"); do
