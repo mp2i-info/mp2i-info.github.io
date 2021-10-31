@@ -19,15 +19,15 @@ jobs:
           python-version: 3.x
 
       - run: |
-        pip install mkdocs-material
-        mkdir -p "docs"
-        TMP_DIR=$(mktemp -d)
-        mv .git $TMP_DIR
-        mv mkdocs.yml $TMP_DIR
-        mv . docs/
-        mv $TMP_DIR/mkdocs.yml .
-        mv $TMP_DIR/.git .
-        mkdocs gh-deploy --force
+          pip install mkdocs-material
+          mkdir -p "docs"
+          TMP_DIR=$(mktemp -d)
+          mv .git $TMP_DIR
+          mv mkdocs.yml $TMP_DIR
+          mv . docs/
+          mv $TMP_DIR/mkdocs.yml .
+          mv $TMP_DIR/.git .
+          mkdocs gh-deploy --force
 
       # - name: Pushes to another repository
       #   uses: cpina/github-action-push-to-another-repository@main
