@@ -12,14 +12,15 @@ nav:
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_TP.ipynb
   - OCaml:
-    - 1_ocaml/1_variables.ipynb
-    - 1_ocaml/2_fonctions.ipynb
-    - 1_ocaml/3_conditions.ipynb
-    - 1_ocaml/4_recursivite.ipynb
-    - 1_ocaml/5_structures_persistantes.ipynb
-    - 1_ocaml/6_boucles.ipynb
-    - 1_ocaml/7_array_string.ipynb
-    - 1_ocaml/8_types_construits.ipynb
+    - Cours:
+      - 1_ocaml/1_variables.ipynb
+      - 1_ocaml/2_fonctions.ipynb
+      - 1_ocaml/3_conditions.ipynb
+      - 1_ocaml/4_recursivite.ipynb
+      - 1_ocaml/5_structures_persistantes.ipynb
+      - 1_ocaml/6_boucles.ipynb
+      - 1_ocaml/7_array_string.ipynb
+      - 1_ocaml/8_types_construits.ipynb
     - TP: 
       - 1_ocaml/tp/tp1.ipynb
       - 1_ocaml/tp/tp2.ipynb
@@ -27,7 +28,7 @@ nav:
       - 1_ocaml/tp/tp4.ipynb
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
-    - DS 1: ds/ds1/ds1.pdf
+    - DS 1: ds/ds1/ds1.md
   - Analyse de programme:
     - Complexité: 2_analyse_programme/1_complexite/complexite.md
     - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
