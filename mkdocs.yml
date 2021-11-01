@@ -2,6 +2,7 @@ site_name: MP2I au lycée Fénelon Sainte-Marie
 site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 nav:
+  - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
   - OCaml:
     - 1_ocaml/1_variables.ipynb
     - 1_ocaml/2_fonctions.ipynb
@@ -25,9 +26,9 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
-  # custom_dir: overrides
-  logo: icon.svg
-  favicon: icon.svg
+  custom_dir: overrides
+  logo: icon.png
+  favicon: icon.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -61,4 +62,3 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  
