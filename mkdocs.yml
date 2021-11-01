@@ -49,7 +49,7 @@ theme:
     - navigation.instant
     - content.code.annotate
     # - content.tabs.link
-    - header.autohide
+    # - header.autohide
     # - navigation.expand
     - navigation.indexes
     - navigation.instant
