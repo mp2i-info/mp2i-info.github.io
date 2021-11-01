@@ -5,9 +5,8 @@ edit_uri: ""
 nav:
   - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
   - Introduction:
-    - Stage de prérentrée:
-      - Cours: 0_intro/stage/stage.md
-      - TP: 0_intro/stage/exos_python.ipynb
+    - Cours de prérentrée: 0_intro/stage/stage.md
+    - 0_intro/stage/exos_python.ipynb
     - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_TP.ipynb
@@ -21,14 +20,14 @@ nav:
       - 1_ocaml/6_boucles.ipynb
       - 1_ocaml/7_array_string.ipynb
       - 1_ocaml/8_types_construits.ipynb
-    - TP: 
+    - Exercices: 
       - 1_ocaml/tp/tp1.ipynb
       - 1_ocaml/tp/tp2.ipynb
       - 1_ocaml/tp/tp3.ipynb
       - 1_ocaml/tp/tp4.ipynb
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
-    - DS 1: ds/ds1/ds1.md
+      - DS 1: ds/ds1/ds1.md
   - Analyse de programme:
     - Complexité: 2_analyse_programme/1_complexite/complexite.md
     - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
