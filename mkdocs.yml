@@ -6,9 +6,9 @@ nav:
   - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
   - Introduction:
     - Stage de prérentrée:
-      - Cours: 0_intro/stage/stage.pdf
+      - Cours: 0_intro/stage/stage.md
       - TP: 0_intro/stage/exos_python.ipynb
-    - Introduction à la MP2I: 0_intro/0_intro.pdf
+    - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_TP.ipynb
   - OCaml:
