@@ -9,7 +9,7 @@ nav:
     - 0_intro/stage/exos_python.ipynb
     - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
-    - Rendu des TPs: 0_intro/2_rendu_TP.ipynb
+    - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
