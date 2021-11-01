@@ -5,7 +5,6 @@ edit_uri: ""
 nav:
   - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
   - Introduction:
-    - Test: 0_intro/test.md
     - Cours de prérentrée: 0_intro/stage/stage.md
     - 0_intro/stage/exos_python.ipynb
     - Introduction à la MP2I: 0_intro/0_intro.md
