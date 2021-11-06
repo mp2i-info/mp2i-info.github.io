@@ -40,6 +40,7 @@ nav:
     - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
 plugins:
   - mkdocs-jupyter
+      theme: dark
 theme:
   name: material
   custom_dir: overrides
@@ -63,18 +64,18 @@ theme:
     - search.suggest
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
   font:
     text: Roboto
     code: Roboto Mono
