@@ -238,7 +238,7 @@ Il n'est pas possible d'utiliser `**` sur des `int`. Par contre on peut utiliser
 2. En déduire la valeur de $42^4$.
 3. Calculer la valeur de $2^{10}$ en utilisant le moins de multiplications possibles.
 
-??? Corrigé
+??? check "Corrigé"
 
     ```OCaml
     (* 1. *) 
