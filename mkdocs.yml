@@ -39,7 +39,7 @@ nav:
     - TD 2 (listes doublements chaînées): 3_structure_sequentielle/td/td_structures2_cor.md
     - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
     theme: dark
 theme:
   name: material
