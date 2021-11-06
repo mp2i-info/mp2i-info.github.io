@@ -1,0 +1,87 @@
+site_name: Informatique en MP2I au lycée Fénelon Sainte-Marie
+site_url: https://mp2i-fsm.github.io/mp2i-2021
+repo_url: https://github.com/fortierq/mp2i-2021
+edit_uri: ""
+nav:
+  - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
+  - Introduction:
+    - Cours de prérentrée: 0_intro/stage/stage.md
+    - 0_intro/stage/exos_python.ipynb
+    - Introduction à la MP2I: 0_intro/0_intro.md
+    - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
+    - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
+  - OCaml:
+    - Cours:
+      - 1_ocaml/1_variables.ipynb
+      - 1_ocaml/2_fonctions.ipynb
+      - 1_ocaml/3_conditions.ipynb
+      - 1_ocaml/4_recursivite.ipynb
+      - 1_ocaml/5_structures_persistantes.ipynb
+      - 1_ocaml/6_boucles.ipynb
+      - 1_ocaml/7_array_string.ipynb
+      - 1_ocaml/8_types_construits.ipynb
+    - Exercices: 
+      - 1_ocaml/tp/tp1.ipynb
+      - 1_ocaml/tp/tp2.ipynb
+      - 1_ocaml/tp/tp3.ipynb
+      - 1_ocaml/tp/tp4.ipynb
+      - 1_ocaml/tp/tp5.ipynb
+      - 1_ocaml/tp/tp6.ipynb
+      - DS 1: ds/ds1/ds1.md
+  - Analyse de programme:
+    - Complexité: 2_analyse_programme/1_complexite/complexite.md
+    - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
+    - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
+  - Structures séquentielles:
+    - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
+    - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
+    - TD 1 (pile et file): 3_structure_sequentielle/td/td_structures1_cor.md
+    - TD 2 (listes doublements chaînées): 3_structure_sequentielle/td/td_structures2_cor.md
+    - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+plugins:
+  - mkdocs-jupyter
+theme:
+  name: material
+  custom_dir: overrides
+  logo: icon.png
+  favicon: icon.png
+  features:
+    - navigation.instant
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
