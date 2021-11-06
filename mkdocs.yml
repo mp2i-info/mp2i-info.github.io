@@ -40,7 +40,7 @@ nav:
     - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
 plugins:
   - mkdocs-jupyter
-      theme: dark
+    theme: dark
 theme:
   name: material
   custom_dir: overrides
