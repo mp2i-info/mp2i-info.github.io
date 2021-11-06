@@ -39,8 +39,7 @@ nav:
     - TD 2 (listes doublements chaînées): 3_structure_sequentielle/td/td_structures2_cor.md
     - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
 plugins:
-  - mkdocs-jupyter:
-      theme: dark
+  - mkdocs-jupyter
 theme:
   name: material
   custom_dir: overrides
@@ -64,18 +63,18 @@ theme:
     - search.suggest
     # - toc.integrate
   palette:
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
