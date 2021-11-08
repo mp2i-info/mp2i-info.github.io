@@ -19,7 +19,7 @@ Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
 **Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**
 
 ## Optionnel et plus compliqué : Docker
-Avec Docker, vous pouvez lancer Jupyter avec tous les outils installés en local. Jupyter est alors plus rapide à lancer et n'a pas besoin d'Internet, mais l'installation est un peu compliquée.
+Avec Docker, vous pouvez lancer Jupyter avec tous les outils installés en local. Jupyter est alors plus rapide à lancer et n'a pas besoin d'Internet, mais l'installation est un peu compliquée.  
 1. Télécharger Docker desktop : https://www.docker.com/get-started (download for Windows si vous êtes sous Windows).  
 2. Installer Docker desktop.  
 3. Lancer Docker desktop.  
