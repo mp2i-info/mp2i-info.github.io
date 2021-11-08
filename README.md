@@ -11,7 +11,7 @@ Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
 
 # Poser des questions
 
-- Onglet Discussions sur GitHub (ou Issues si vous avez trouvé une erreur dans le cours/les exercices)
+- [Onglet Discussions sur GitHub (ou Issues si vous avez trouvé une erreur dans le cours/les exercices)](https://github.com/mp2i-fsm/mp2i-2021/discussions)
 
 # Utiliser Jupyter
 
