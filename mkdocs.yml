@@ -35,10 +35,10 @@ nav:
   - Structures séquentielles:
     - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
     - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
-    - TD 1 (pile et file): 3_structure_sequentielle/td/td_structures1_cor.md
-    - TD 2 (listes doublements chaînées): 3_structure_sequentielle/td/td_structures2_cor.md
-    - TD 3 (cycle dans une liste chaînée): 3_structure_sequentielle/td/td_structures3/td_structures3.md
-    - TD 4 (table de hachage): 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+    - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1_cor.md
+    - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
+    - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
+    - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
 plugins:
   - mkdocs-jupyter
 theme:
