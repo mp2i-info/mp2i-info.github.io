@@ -17,7 +17,8 @@ jobs:
           python-version: 3.x
 
       - run: |
-          pip install mkdocs-material git+https://github.com/danielfrg/mkdocs-jupyter.git # mkdocs-jupyter
+          pip install mkdocs-material 
+          pip install -e git+https://github.com/fortierq/mkdocs-jupyter.git # mkdocs-jupyter
           mkdir -p docs
           TMP_DIR=$(mktemp -d)
           mv .git $TMP_DIR
