@@ -27,7 +27,6 @@ nav:
       - 1_ocaml/tp/tp4.ipynb
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
-      - DS 1: ds/ds1/ds1.md
   - Analyse de programme:
     - Complexité: 2_analyse_programme/1_complexite/complexite.md
     - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
@@ -39,6 +38,9 @@ nav:
     - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
     - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
     - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+  - DS
+    - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
+    - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
 plugins:
   - mkdocs-jupyter
 theme:
