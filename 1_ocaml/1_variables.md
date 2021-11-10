@@ -5,9 +5,10 @@
 !!! note ""
 
     Une variable possède 3 propriétés:  
-    - un **nom** (exemple : `x`)  
-    - une **valeur** (exemple : 42)  
-    - un **type** (exemple : entier)
+
+- un **nom** (exemple : `x`)  
+- une **valeur** (exemple : 42)  
+- un **type** (exemple : entier)
 
 En OCaml, on définit une variable de la façon suivante :
 ```ocaml
