@@ -2,7 +2,7 @@
 
 ## Définition d'une variable
 
-!!! note ""
+!!! note "test"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -13,10 +13,6 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
-
-!!! note ""
-
-    Une variable possède 3 propriétés:  
 
 - un **nom** (exemple : `x`)  
 - une **valeur** (exemple : 42)  
