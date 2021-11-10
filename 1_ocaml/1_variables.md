@@ -7,7 +7,7 @@ Une variable possède 3 propriétés:
 - une **valeur** (exemple : 42)  
 - un **type** (exemple : entier)
 
-??? Solution
+??? success "Solution"
 
     En OCaml, on définit une variable de la façon suivante :
     ```ocaml
