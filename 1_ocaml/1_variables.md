@@ -3,6 +3,7 @@
 ## Définition d'une variable
 
 !!! note ""
+
     Une variable possède 3 propriétés:  
     - un **nom** (exemple : `x`)  
     - une **valeur** (exemple : 42)  
