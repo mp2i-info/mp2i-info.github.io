@@ -2,17 +2,16 @@
 
 ## Définition d'une variable
 
-Une variable possède 3 propriétés:  
-- un **nom** (exemple : `x`)  
-- une **valeur** (exemple : 42)  
-- un **type** (exemple : entier)
+!!! note ""
+    Une variable possède 3 propriétés:  
+    - un **nom** (exemple : `x`)  
+    - une **valeur** (exemple : 42)  
+    - un **type** (exemple : entier)
 
-??? Solution
-
-    En OCaml, on définit une variable de la façon suivante :
-    ```ocaml
-    let variable = valeur
-    ```
+En OCaml, on définit une variable de la façon suivante :
+```ocaml
+let variable = valeur
+```
 
 Par exemple, pour définir une variable `x` valant 42 :
 
@@ -111,7 +110,7 @@ y (* utiliser y ici donne une erreur  *)
 ```
 
 
-    File "[6]", line 1, characters 0-1:
+    File "[5]", line 1, characters 0-1:
     1 | y (* utiliser y ici donne une erreur  *)
         ^
     Error: Unbound value y
@@ -268,6 +267,22 @@ deux_puiss_8 * deux_puiss_2;; (* calcul de 2 puissance 10 en 4 multiplications *
 
 
     val a : int = 1764
+
+
+
+
+
+
+
+    - : int = 3111696
+
+
+
+
+
+
+
+    - : int = 1024
 
 
 
@@ -503,6 +518,9 @@ Pour que le résultat s'affiche, il faut revenir à la ligne avec `print_newline
 print_newline ()
 ```
 
+    42
+
+
 
 
 
@@ -520,6 +538,9 @@ Il aurait été possible de combiner ces deux instructions avec `;`, qui permet 
 print_int 31;
 print_newline ()
 ```
+
+    31
+
 
 
 
@@ -557,6 +578,14 @@ a;; (* a n'est pas accessible ici *)
 
 
     - : unit = ()
+
+
+
+
+
+
+
+    - : int = 6
 
 
 
@@ -601,6 +630,22 @@ x;; (* x vaut toujours 3 : il ne peut pas être modifié *)
 
 
 
+
+
+
+    - : bool = false
+
+
+
+
+
+
+
+    - : int = 3
+
+
+
+
 Pour pouvoir modifier une variable, on peut utiliser une **référence**.
 Pour définir une référence on utilise `ref` :
 ```ocaml
@@ -626,6 +671,22 @@ x := 4;; (* modifie la valeur pointé par x avec := *)
 
 
     val x : int ref = {contents = 3}
+
+
+
+
+
+
+
+    - : unit = ()
+
+
+
+
+
+
+
+    - : int = 4
 
 
 
