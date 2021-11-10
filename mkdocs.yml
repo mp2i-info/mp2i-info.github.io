@@ -1,4 +1,4 @@
-site_name: Informatique en MP2I au lycée Fénelon Sainte-Marie
+site_name: "Cours d'informatique en MP2I au lycée Fénelon Sainte-Marie"
 site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 edit_uri: ""
@@ -12,7 +12,7 @@ nav:
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
   - OCaml:
     - Cours:
-      - 1_ocaml/1_variables.md
+      - 1_ocaml/1_variables.ipynb
       - 1_ocaml/2_fonctions.ipynb
       - 1_ocaml/3_conditions.ipynb
       - 1_ocaml/4_recursivite.ipynb

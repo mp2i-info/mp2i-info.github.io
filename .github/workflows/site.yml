@@ -3,6 +3,7 @@ name: deploy mkdocs
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -15,12 +16,25 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+          
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
 
       - run: |
-          pip install mkdocs-material mkdocs-jupyter
-          # pip install git+https://github.com/fortierq/mkdocs-jupyter.git # mkdocs-jupyter
+          pip install mkdocs-material # mkdocs-jupyter
+          # pip install git+https://github.com/fortierq/mkdocs-jupyter.git
           mkdir -p docs
           TMP_DIR=$(mktemp -d)
+          
+          DIR=$(pwd)
+          git clone "https://fortierq:${{ secrets.API_TOKEN_GITHUB }}@github.com/fortierq/mkdocs-jupyter.git" "$TMP_DIR/mkdocs-jupyter"
+          cd $TMP_DIR/mkdocs-jupyter/js
+          npm install && npm run build
+          cd ../..
+          pip install ./mkdocs-jupyter/
+          cd $DIR
+          
           mv .git $TMP_DIR
           mv mkdocs.yml $TMP_DIR
           mv overrides $TMP_DIR
@@ -37,34 +51,3 @@ jobs:
           cd ..
 
           mkdocs gh-deploy --force
-
-      # - name: Pushes to another repository
-      #   uses: cpina/github-action-push-to-another-repository@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source-directory: '.'
-      #     destination-github-username: 'fortierq'
-      #     destination-repository-name: 'mp2i-2021'
-      #     user-email: qpfortier@gmail.com
-      #     target-branch: site
-
-      # - name: Copy files
-      #   shell: bash
-      #   run: |
-      #     CLONE_DIR=$(mktemp -d)
-      #     REPO = mp2i-2021
-      #     git config --global user.email "qpfortier@gmail.com"
-      #     git config --global user.name "Quentin Fortier"
-      #     git clone -b site --single-branch "https://github.com/fortierq/$REPO" "$CLONE_DIR"
-  
-      #     rm -R "$CLONE_DIR/$REPO"
-      #     mkdir -p "$CLONE_DIR/$REPO"
-
-      #     cp . "$CLONE_DIR/$REPO"
-
-      #     cd "$CLONE_DIR"
-      #     git add .
-      #     git commit -m "${{ github.event.head_commit.message }}"
-      #     git pull
-      #     git push "https://fortierq:${{ secrets.API_TOKEN_GITHUB }}@github.com/mp2i-fsm/mp2i-2021.git" --set-upstream main
