@@ -12,7 +12,7 @@ nav:
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
   - OCaml:
     - Cours:
-      - 1_ocaml/1_variables.md
+      - 1_ocaml/1_variables.ipynb
       - 1_ocaml/2_fonctions.ipynb
       - 1_ocaml/3_conditions.ipynb
       - 1_ocaml/4_recursivite.ipynb
