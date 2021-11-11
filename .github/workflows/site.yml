@@ -46,7 +46,7 @@ jobs:
           cd docs
           URL=https://mp2i-fsm.github.io/mp2i-2021
           for file in $(find . -type f -name "*.pdf"); do
-            fit=Fit
+            fit=FitH
             if [[ $file == td* ]] || [[ $file == TD* ]];
             then
               fit=FitH
