@@ -51,7 +51,7 @@ jobs:
             then
               fit=FitH
             fi
-            echo "<iframe src=../$(basename $file)#view=$fit height=600 width=1200></iframe>" > ${file%.*}.md
+            echo "<iframe src=../$(basename $file)#view=$fit height=800 width=1200></iframe>" > ${file%.*}.md
           done
           cd ..
 
