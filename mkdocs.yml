@@ -61,10 +61,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    # - toc.integrate
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
