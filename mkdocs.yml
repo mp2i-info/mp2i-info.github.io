@@ -38,6 +38,9 @@ nav:
     - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
     - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
     - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+  - C:
+    - 4_c/0_references.md
+    - 4_c/1_type_base.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
