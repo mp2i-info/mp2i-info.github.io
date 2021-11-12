@@ -1,0 +1,5 @@
+.md-typeset {
+  .admonition {
+    font-size: px2rem(12.8px);
+  }
+}
