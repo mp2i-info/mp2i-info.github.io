@@ -12,7 +12,7 @@ nav:
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
   - OCaml:
     - Cours:
-      - 1_ocaml/1_variables.md
+      - 1_ocaml/1_variables.ipynb
       - 1_ocaml/2_fonctions.ipynb
       - 1_ocaml/3_conditions.ipynb
       - 1_ocaml/4_recursivite.ipynb
@@ -38,6 +38,10 @@ nav:
     - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
     - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
     - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+  - C: 
+    - Références: 4_c/0_references.md
+    - Cours:
+      - 4_c/cours/1_type_base.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
@@ -61,10 +65,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    # - toc.integrate
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo

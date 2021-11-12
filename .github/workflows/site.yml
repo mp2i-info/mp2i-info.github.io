@@ -45,7 +45,12 @@ jobs:
 
           cd docs
           for file in $(find . -type f -name "*.pdf"); do
-            echo "<iframe src=../$(basename $file)#view=Fit height=600 width=1200></iframe>" > ${file%.*}.md
+            fit=FitH
+            if [[ $file == td* ]] || [[ $file == TD* ]];
+            then
+              fit=FitH
+            fi
+            echo "<iframe src=../$(basename $file)#view=$fit height=800 width=1200></iframe>" > ${file%.*}.md
           done
           cd ..
 
