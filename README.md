@@ -3,13 +3,13 @@
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
 [Programme officiel](https://prepas.org/index.php?document=73)
 
-## [Poser des questions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
+## [Poser des questions sur https://github.com/mp2i-fsm/mp2i-2021/discussions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
 
 ## [Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
 
 ## Utiliser Jupyter
 
-### [Binder (serveur distant)](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)
+### [Binder (serveur distant)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)
 **Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**
 
 ### Docker (local)
