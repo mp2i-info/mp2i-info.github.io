@@ -1,24 +1,18 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)  
+# Informatique de 1ère année en MP2I
 
-**[Programme du Concours Blanc](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds2/programme.md) (maj 29/10)**
+Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
+[Programme officiel](https://prepas.org/index.php?document=73)
 
-**Travail à faire pendant les vacances : https://github.com/fortierq/mp2i-library**
+## [Poser des questions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
 
-**Consignes pour rendre le TP** : [**0_intro/2_rendu_TP.ipynb**](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%252F0_intro/2_rendu_TP.ipynb%26branch%3Dmain)  
-Si vous n'y arrivez pas, vous pouvez me l'envoyer par mail.
+## [Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
 
-[Code source du module List d'OCaml](https://github.com/ocaml/ocaml/blob/cce52acc7c7903e92078e9fe40745e11a1b944f0/stdlib/list.ml)
+## Utiliser Jupyter
 
-# Poser des questions
-
-- [Onglet Discussions sur GitHub (ou Issues si vous avez trouvé une erreur dans le cours/les exercices)](https://github.com/mp2i-fsm/mp2i-2021/discussions)
-
-# Utiliser Jupyter
-
-## Binder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)  
+### [Binder (serveur distant)](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)
 **Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**
 
-## Optionnel et plus compliqué : Docker
+### Docker (local)
 Avec Docker, vous pouvez lancer Jupyter avec tous les outils installés en local. Jupyter est alors plus rapide à lancer et n'a pas besoin d'Internet, mais l'installation est un peu compliquée.  
 1. Télécharger Docker desktop : https://www.docker.com/get-started (download for Windows si vous êtes sous Windows).  
 2. Installer Docker desktop.  
