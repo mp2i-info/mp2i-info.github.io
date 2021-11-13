@@ -3,9 +3,9 @@
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
 [Programme officiel](https://prepas.org/index.php?document=73)
 
-## [Poser des questions sur https://github.com/mp2i-fsm/mp2i-2021/discussions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
+[Poser des questions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
 
-## [Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
+[Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
 
 ## Utiliser Jupyter
 
