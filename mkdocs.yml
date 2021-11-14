@@ -43,6 +43,9 @@ nav:
     - Références: 4_c/0_references.md
     - Cours:
       - 4_c/cours/1_type_base.ipynb
+    - Représentation des nombres:
+      - 4_c/cours/1_representation/representation_entiers.md
+      - 4_c/cours/1_representation/representation_flottants.md
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
