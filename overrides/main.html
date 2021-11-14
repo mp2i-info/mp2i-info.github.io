@@ -14,9 +14,5 @@
 {% endblock %}
 
 {% block content %}
-{% if page.edit_url %}
-  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
-    {% include ".icons/material/pencil.svg" %}
-  </a>
-{% endif %}
 {{ page.content }}
+{% endblock %}
