@@ -1,4 +1,4 @@
-# Informatique de 1ère année en MP2I
+# Informatique en MP2I
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
 [Programme officiel](https://prepas.org/index.php?document=73)
