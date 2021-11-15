@@ -10,7 +10,6 @@ nav:
     - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
-    - Choix MPI/MP: mpi_mp/mpi_mp.md
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
@@ -45,7 +44,6 @@ nav:
       - 4_c/cours/1_type_base.ipynb
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
-      
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
