@@ -1,3 +1,5 @@
+Travail à faire au plus tard mercredi 17 novembre : https://github.com/fortierq/mp2i-library
+
 # Informatique en MP2I
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
