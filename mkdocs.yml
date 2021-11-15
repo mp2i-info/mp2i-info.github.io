@@ -44,6 +44,7 @@ nav:
       - 4_c/cours/1_type_base.ipynb
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
+      - 4_c/cours/2_condition_boucle.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
@@ -94,4 +95,3 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - stylesheets/extra.css
-
