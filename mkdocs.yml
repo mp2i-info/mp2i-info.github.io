@@ -45,6 +45,8 @@ nav:
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
       - 4_c/cours/2_condition_boucle.ipynb
+      - 4_c/cours/3_fonction.ipynb
+      - 4_c/cours/4_pointeur.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
