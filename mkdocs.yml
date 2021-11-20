@@ -40,16 +40,14 @@ nav:
     - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
   - C: 
     #- Références: 4_c/0_references.md
-    - Cours:
-      - 4_c/cours/0_intro.md
-      - 4_c/cours/1_type_base.ipynb
-      - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
-      - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
-      - 4_c/cours/2_condition_boucle.ipynb
-      - 4_c/cours/3_fonction.ipynb
-      - 4_c/cours/4_pointeur.ipynb
-    - TP:
-      - "TP 1 : bitfield": 4_c/tp/1_bitfield.ipynb
+    - 4_c/cours/0_intro.md
+    - 4_c/cours/1_type_base.ipynb
+    - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
+    - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
+    - 4_c/cours/2_condition_boucle.ipynb
+    - 4_c/cours/3_fonction.ipynb
+    - 4_c/cours/4_pointeur.ipynb
+    - "TP 1 : bitfield": 4_c/tp/1_bitfield.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
