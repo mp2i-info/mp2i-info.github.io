@@ -41,6 +41,7 @@ nav:
   - C: 
     #- Références: 4_c/0_references.md
     - Cours:
+      - 4_c/cours/0_intro.md
       - 4_c/cours/1_type_base.ipynb
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
