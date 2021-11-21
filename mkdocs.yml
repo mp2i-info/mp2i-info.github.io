@@ -77,15 +77,15 @@ theme:
     - scheme: default
       primary: indigo
       accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
+    # - scheme: slate
+    #   primary: red
+    #   accent: red
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
