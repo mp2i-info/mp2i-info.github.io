@@ -1,9 +1,9 @@
 # Introduction
 
-Le langage C est vieux : il a été créé dans les années 1970 pour écrire Unix dont Linux est un dérivé.  
-C'est à la fois sa force et sa faiblesse : de nombreux logiciels et systèmes d'exploitations ont été écrits en C et il faudrait beaucoup de temps pour les réécrire dans un langage moderne et plus sûr.  
+Le langage C est vieux : il a été créé dans les années 1970 pour écrire Unix, dont Linux est un dérivé.  
+Son âge est à la fois sa force et sa faiblesse : de nombreux logiciels et systèmes d'exploitations ont été écrits en C et il faudrait beaucoup de temps pour les réécrire dans un langage moderne et plus sûr.  
 De plus, les programmes écrits en C sont souvent plus rapides qu'avec des langages plus haut niveaux, ce qui rend C encore très utilisé dans la programmation système ou sur des morceaux de code critiques.  
-Ainsi, C est utilisé dans l'implémentation la plus utilisée de Python, [CPython](https://github.com/python/cpython), de même que pour [OCaml](https://github.com/ocaml/ocaml).
+Par exemple, C est utilisé dans l'implémentation la plus utilisée de Python, [CPython](https://github.com/python/cpython), de même que pour [OCaml](https://github.com/ocaml/ocaml).
 
 ## Code source
 
