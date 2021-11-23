@@ -1,4 +1,4 @@
-**[Programme du DS le 27/11](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds3/programme.md)**
+**[Programme du DS du 27/11](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds3/programme.md)**
 
 # Cours d'informatique en MP2I
 
