@@ -1,4 +1,4 @@
-Travail à faire au plus tard mercredi 17 novembre : https://github.com/fortierq/mp2i-library
+**[Programme du DS le 27/11](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds3/programme.md)**
 
 # Cours d'informatique en MP2I
 
