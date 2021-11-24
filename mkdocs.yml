@@ -49,9 +49,9 @@ nav:
     - 4_c/cours/4_pointeur.ipynb
     - 4_c/cours/5_struct.ipynb
     - 4_c/cours/6_tableau.ipynb
-  - TP:
-    - "TP 1 : bitfield": 4_c/tp/1_bitfield.ipynb
-    - 4_c/tp/2_liste_chainee.ipynb
+    - TP:
+      - 4_c/tp/1_bitfield.ipynb
+      - 4_c/tp/2_liste_chainee.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
