@@ -53,6 +53,7 @@ nav:
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
+    - "Classement DS 2": ds/ds2/rank_ds2.png
 plugins:
   - mkdocs-jupyter
 theme:
