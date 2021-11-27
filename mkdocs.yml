@@ -10,6 +10,7 @@ nav:
     - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
+    - Installer Jupyter: 0_intro/install.md
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
