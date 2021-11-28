@@ -11,4 +11,4 @@ Les langages au programme sont OCaml, C et SQL.
 
 [Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
 
-[Utiliser Jupyter (**nouveau : machine virtuelle**)](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install.md)
+[Utiliser Jupyter (**nouveau : machine virtuelle**)](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install)
