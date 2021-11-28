@@ -11,4 +11,5 @@ La [GNU C Library (glibc)](https://sourceware.org/git/?p=glibc.git;a=tree) est l
 
 ## Références
 
-- The C Programming Language, Dennis Ritchie et Brian Kernighan (K&R). Trouvable en pdf sur Internet.
+- **Le guide complet du langage C, Claude Delannoy**.
+- The C Programming Language, Dennis Ritchie et Brian Kernighan (K&R).
