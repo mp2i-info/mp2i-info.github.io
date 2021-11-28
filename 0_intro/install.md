@@ -6,6 +6,18 @@ Pour utiliser Jupyter avec OCaml, C, SQL... vous avez plusieurs solutions :
 Tout est en ligne, aucune installation nécessaire.  
 **Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**
 
+## Machine virtuelle
+
+Une machine virtuelle simule un système d'exploitation entier.  
+1. [Télécharger VirtualBox](https://www.virtualbox.org/)  
+2. [Télécharger cette image pour machine virtuelle (contenant Debian, OCaml, C, Jupyter, Visual Code)](https://filesender.renater.fr/?s=download&token=8a94fa81-1948-43cc-9173-e253eb54e648)  
+3. Lancer l'image avec VirtualBox.  
+4. Une fenêtre avec Debian se lance. Vous pouvez taper Ctrl droit + F pour la mettre en plein écran (et la même combinaison de touche pour en sortir.  
+5. Se connecter avec l'utilisateur user et le mot de passe mp2i.  
+6. Ouvrir un terminal (Ctrl gauche + Alt + T ou cliquer sur l'icone).  
+7. Taper `passwd` puis changer votre mot de passe.  
+![](https://user-images.githubusercontent.com/49362475/143782665-97645a54-2018-4a5e-bd62-4f94ea38d743.png)
+
 ## Docker (en local)
 Docker est une virtualisation d'application, qui permet d'obtenir Jupyter avec toutes les dépendances nécessaires.  
 0. Si vous utilisez Windows, vous devez installer WSL2 (permettant d'avoir Linux sous Windows, ce qui est utilisé par Docker) : https://docs.microsoft.com/fr-fr/windows/wsl/install
