@@ -39,12 +39,10 @@
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{.7\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let creer h w =
     {hache = h; donnees = Array.make w []; largeur = w}
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -54,12 +52,10 @@ let creer h w =
         \begin{emphase}
             \textbf{Solution} : On peut utiliser \ocaml{List.exists : ('a -> bool) -> 'a list -> bool} pour savoir si une liste vérifie une propriété.
             \begin{center}
-                \begin{minipage}{.7\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let recherche t k =
     List.exists (fun c -> fst c = k) t.donnees.(t.hache k) 
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -69,13 +65,11 @@ let recherche t k =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{.8\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let element t k =
     List.filter (fun c -> fst c  = k) t.donnees.(t.hache k)
     |> List.hd 
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -84,12 +78,10 @@ let element t k =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{.8\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let ajout t k e =
     t.donnees(t.hache k) <- (k, e)::t.donnees(t.hache k)
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -98,12 +90,10 @@ let ajout t k e =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let suppr t k =
     t.donnees(t.hache k) <- List.filter (fun c -> fst c <> k) t.donnees.(t.hache k)
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -165,12 +155,10 @@ let suppr t k =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{.7\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let creer_dyn h =
     {hache = h; taille = 0; donnees = [| [] |]; largeur = 1}
-\end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi 
@@ -182,8 +170,7 @@ let creer_dyn h =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let rearrange_dyn t w2 =
     let d = Array.make w2 [] in
     let rec ajout q = match q with
@@ -195,8 +182,7 @@ let rearrange_dyn t w2 =
     done;
     t.donnees <- d;
     t.largeur <- w2;;    
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
@@ -211,8 +197,7 @@ let rearrange_dyn t w2 =
         \begin{emphase}
             \textbf{Solution} : 
             \begin{center}
-                \begin{minipage}{.7\textwidth}
-                \begin{minted}[frame=single,framesep=5pt]{ocaml}
+\begin{code}{ocaml}
 let ajout_dyn t k e =
     if not (recherche_dyn t k) then begin
         let i = t.hache t.largeur k in
@@ -221,8 +206,7 @@ let ajout_dyn t k e =
         end;
     if t.taille > 3 * t.largeur then
         rearrange_dyn t (3 * t.largeur);;    
-                \end{minted}
-                \end{minipage}
+\end{code}
             \end{center}
         \end{emphase}
         \fi
