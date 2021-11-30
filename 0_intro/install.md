@@ -4,7 +4,8 @@ Pour utiliser OCaml, C, SQL... vous avez plusieurs solutions :
 
 ## [Jupyter avec Binder (serveur distant)](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain)
 Tout est en ligne, aucune installation nécessaire.  
-**Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**
+**Attention : les données ne sont pas sauvegardées sur Binder. Pensez à télécharger (File -> Download) votre travail quand vous avez terminé.**  
+Pour contourner le blocage du wifi au lycée, vous pouvez utiliser [ProtonVPN](https://protonvpn.com/fr/) (qui a une version gratuite et a l'air sûr).
 
 ## Machine virtuelle
 
