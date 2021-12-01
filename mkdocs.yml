@@ -52,6 +52,7 @@ nav:
     - 4_c/cours/6_tableau.ipynb
     - 4_c/cours/7_compilation/7_compilation.ipynb
     - 4_c/cours/8_string.ipynb
+    - 4_c/cours/9_tableau_2d.ipynb
     - TP:
       - 4_c/tp/1_bitfield.ipynb
       - 4_c/tp/2_liste_chainee.ipynb
