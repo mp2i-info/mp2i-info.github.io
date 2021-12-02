@@ -57,7 +57,8 @@ nav:
       - 4_c/tp/1_bitfield.ipynb
       - 4_c/tp/2_liste_chainee.ipynb
       - 4_c/tp/3_representation_binaire.ipynb
-      - 4_c/tp/4_dyn_array.ipynb 
+      - 4_c/tp/4_dyn_array.ipynb
+      - 4_c/tp/5_string.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
