@@ -62,6 +62,7 @@ nav:
       - 4_c/tp/6_bash.ipynb
       - 4_c/tp/7_file/7_file.ipynb
       - 4_c/tp/8_sudoku.ipynb
+      - 4_c/tp/9_bash2/9_bash2.ipynb
   - DS:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
