@@ -1,7 +1,5 @@
 [Advent Of Code](https://adventofcode.com/2021) est un "calendrier de l'avent" de problèmes algorithmiques : il propose un exercice par jour du 1er au 25 décembre. C'est un bon challenge pour ceux qui veulent des exercices supplémentaires / plus difficiles. Vous pouvez choisir votre langage de programmation (il est plus simple d'utiliser Python, *a priori*).
 
-**[Corrigé du DS 3](https://mp2i-fsm.github.io/mp2i-2021/ds/ds3/ds3.md)**
-
 # Cours d'informatique en MP2I
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
