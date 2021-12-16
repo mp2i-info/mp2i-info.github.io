@@ -64,7 +64,7 @@ nav:
       - 4_c/tp/8_sudoku.ipynb
       - 4_c/tp/9_bash2/9_bash2.ipynb
   - Arbres:
-    - "Arbres binaires": 5_arbre/arbre_binaire.md
+    - "Arbres binaires": 5_arbre/1_arbre_binaire/arbre_binaire.md
     - TP:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
   - DS / DM:
