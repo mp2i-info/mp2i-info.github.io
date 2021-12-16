@@ -65,6 +65,8 @@ nav:
       - 4_c/tp/9_bash2/9_bash2.ipynb
   - Arbres:
     - "Arbres binaires": 5_arbre/arbre_binaire.md
+    - TP:
+      - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
