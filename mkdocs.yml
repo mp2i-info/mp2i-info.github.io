@@ -67,7 +67,7 @@ nav:
     - "Arbres binaires": 5_arbre/1_arbre_binaire/arbre_binaire.md
     - TP/TD:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
-      - "TD 2 : preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
+      - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
