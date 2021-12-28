@@ -6,16 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  add_binder_link:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: fortierq/add-binder-link-action@v1
-        with:
-          env: 'fortierq/binder-mp2i'
-          branch-env: 'main'
-
-  mkdocs:
+  mkdocs_and_binder_link:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -28,7 +19,14 @@ jobs:
         with:
           node-version: '16'
 
-      - run: |
+      - name: add_link
+        uses: fortierq/add-binder-link-action@v1
+        with:
+          env: 'fortierq/binder-mp2i'
+          branch-env: 'main'
+    
+      - name: mkdocs
+        run: |
           pip install mkdocs-material # mkdocs-jupyter
           # pip install git+https://github.com/fortierq/mkdocs-jupyter.git
           mkdir -p docs
