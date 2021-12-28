@@ -1,4 +1,4 @@
-name: deploy mkdocs
+name: add binder links & deploy mkdocs
 
 on:
   push:
@@ -6,16 +6,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  add_binder_link:
     runs-on: ubuntu-latest
-
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: fortierq/add-binder-link-action@v1
+        with:
+          env: 'fortierq/binder-mp2i'
+          branch-env: 'main'
+
+  mkdocs:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
 
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.x
+          python-version: 3.9
           
       - uses: actions/setup-node@v2
         with:
