@@ -24,6 +24,7 @@ jobs:
         with:
           env: 'fortierq/binder-mp2i'
           branch-env: 'main'
+          force: 'true'
     
       - name: mkdocs
         run: |
