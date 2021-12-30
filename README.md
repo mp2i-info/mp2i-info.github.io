@@ -1,4 +1,5 @@
-[Advent Of Code](https://adventofcode.com/2021) est un "calendrier de l'avent" de problèmes algorithmiques : il propose un exercice par jour du 1er au 25 décembre. C'est un bon challenge pour ceux qui veulent des exercices supplémentaires / plus difficiles. Vous pouvez choisir votre langage de programmation (il est plus simple d'utiliser Python, *a priori*).
+[Advent Of Code](https://adventofcode.com/2021) est un "calendrier de l'avent" de problèmes algorithmiques : il propose un exercice par jour du 1er au 25 décembre. C'est un bon challenge pour ceux qui veulent des exercices supplémentaires / plus difficiles. Vous pouvez choisir votre langage de programmation (il est plus simple d'utiliser Python, *a priori*).  
+Pour ceux qui souhaite s'entraîner à programmer, en plus de refaire les TP, je recommande aussi [CodinGame](www.codingame.com).
 
 # Cours d'informatique en MP2I
 
