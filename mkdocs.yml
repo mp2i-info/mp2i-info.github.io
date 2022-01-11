@@ -67,6 +67,7 @@ nav:
     - "Arbre binaire": 5_arbre/1_arbre_binaire/arbre_binaire.md
     - "Parcours d'arbre": 5_arbre/2_parcours/parcours.md
     - "Arbre binaire de recherche": 5_arbre/3_bst/bst.md
+    - "Arbre binaire de recherche équilibré": 5_arbre/4_balanced_tree/balanced_tree.md
     - TP/TD:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
       - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
