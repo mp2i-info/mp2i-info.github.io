@@ -73,6 +73,7 @@ nav:
       - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
       - 5_arbre/tp_td/tp3_arbre.ipynb
       - "TD 4 : Parcours et arbre binaire de recherche": 5_arbre/tp_td/td4_parcours/td_parcours.md
+      - "TD 5 : Arbre binaire de recherche équilibré": 5_arbre/tp_td/td5_balanced/td_balanced.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
