@@ -69,6 +69,7 @@ nav:
     - "Arbre binaire de recherche": 5_arbre/3_bst/bst.md
     - "Arbre binaire de recherche équilibré": 5_arbre/4_balanced_tree/balanced_tree.md
     - "File de priorité et tas": 5_arbre/5_heap/heap.md
+    - 5_arbre/5_heap/heap.ipynb
     - TP/TD:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
       - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
