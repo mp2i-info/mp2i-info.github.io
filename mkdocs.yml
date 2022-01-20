@@ -82,6 +82,7 @@ nav:
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
     - "Classement DS 2": ds/ds2/rank_ds2.png
     - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
+    - "Classement DS 3": ds/ds3/ds3.png
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
 plugins:
