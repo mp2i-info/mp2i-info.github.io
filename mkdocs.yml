@@ -85,6 +85,7 @@ nav:
     - "Classement DS 3": ds/ds3/ds3.png
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
+    - "Classement DS 4": ds/ds4/rank_ds4.png
 plugins:
   - mkdocs-jupyter
 theme:
