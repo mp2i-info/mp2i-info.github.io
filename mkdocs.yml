@@ -77,6 +77,8 @@ nav:
       - "TD 5 : Arbre binaire de recherche équilibré": 5_arbre/tp_td/td5_balanced/td_balanced.md
       - 5_arbre/tp_td/tp6_segment/tp_segment.ipynb
       - "TD 7 : File de priorité et tas": 5_arbre/tp_td/td7_heap/td_heap.md
+  - Graphes:
+    - "Définitions": 6_graph/1_definition/graph_def.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
