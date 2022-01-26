@@ -79,6 +79,8 @@ nav:
       - "TD 7 : File de priorité et tas": 5_arbre/tp_td/td7_heap/td_heap.md
   - Graphes:
     - "Définitions": 6_graph/1_definition/graph_def.md
+    - TP/TD:
+      - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
