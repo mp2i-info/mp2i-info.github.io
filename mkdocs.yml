@@ -80,6 +80,8 @@ nav:
       - "TD 8 : Arbre croissant (X-ENS 2014)": 5_arbre/tp_td/td8_arbre_croissant.pdf
   - Graphes:
     - "Définitions": 6_graph/1_definition/graph_def.md
+    - "Représentations": 6_graph/2_representation/2_representation.md
+    - "Parcours": 6_graph/3_traversal/3_traversal.md
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
   - DS / DM:
