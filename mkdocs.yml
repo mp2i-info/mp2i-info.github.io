@@ -84,7 +84,7 @@ nav:
     - "Parcours": 6_graph/3_traversal/3_traversal.md
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
-      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.tex
+      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
