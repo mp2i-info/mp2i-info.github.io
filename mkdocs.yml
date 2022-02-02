@@ -95,6 +95,7 @@ nav:
     - "Classement DS 4": ds/ds4/rank_ds4.png
 plugins:
   - mkdocs-jupyter
+  - search
 theme:
   name: material
   custom_dir: overrides
