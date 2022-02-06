@@ -1,4 +1,4 @@
-Google Hash Code est une compétition de programmation (sur des problèmes d'optimisation) par équipe (2 à 4), qui commence le 24 février : https://codingcompetitions.withgoogle.com/hashcode
+[Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) est une compétition de programmation (sur des problèmes d'optimisation) par équipe (2 à 4), qui commence le 24 février.
 
 # Cours d'informatique en MP2I
 
