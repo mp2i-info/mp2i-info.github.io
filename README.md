@@ -1,3 +1,18 @@
+Groupe d'informatique pour le second semestre :
+
+EdT pour l'option informatique :
+|  | Lundi | Mardi | Mercredi | Jeudi | Vendredi |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8h |  |  |  |  |  |
+| 9h |  | Cours Info H21 |  |  |  |
+| 10h |  | Cours Info H21 |  |  |  |
+| 11h |  |  | TD groupe 1 H32 |  | Cours Info H21 |
+| 12h |  |  | TD groupe 2 H21 |  | Cours Info H21 |
+| 13h |  |  |  |  |  |
+| 14h |  |  |  |  |  |
+| 15h-16h30 |  |  |  | TD groupe 1  H32 |  |
+| 16h30-18 |  |  |  | TD groupe 2 H32 |  |
+
 [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) est une compétition de programmation (sur des problèmes d'optimisation) par équipe (2 à 4), qui commence le 24 février.
 
 # Cours d'informatique en MP2I
