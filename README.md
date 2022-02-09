@@ -11,8 +11,9 @@ EdT pour l'option informatique :
 | 12h |  |  | TD groupe 2 H21 |  | Cours Info H21 |  
 | 13h |  |  |  |  |  |  
 | 14h |  |  |  |  |  |  
-| 15h-16h30 |  |  |  | TD groupe 1  H32 |  |  
-| 16h30-18 |  |  |  | TD groupe 2 H32 |  |
+| 15h-16h |  |  |  | TD groupe 2 H32 |  |  
+| 16h-17h |  |  |  | TD groupe 1 H32 |  |
+| 17h-18h |  |  |  | Approfondissement/accompagnement H32 |  |
 
 [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) est une compétition de programmation (sur des problèmes d'optimisation) par équipe (2 à 4), qui commence le 24 février.
 
