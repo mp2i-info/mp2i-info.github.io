@@ -15,7 +15,7 @@ EdT pour l'option informatique :
 | 16h-17h |  |  |  | TD groupe 1 H32 |  |
 | 17h-18h |  |  |  | Approfondissement/accompagnement H32 (optionnel) |  |
 
-[Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) est une compétition de programmation (sur des problèmes d'optimisation) par équipe (2 à 4), qui commence le 24 février.
+[Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation suffisamment simple pour des étudiants.
 
 # Cours d'informatique en MP2I
 
