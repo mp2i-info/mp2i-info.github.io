@@ -1,5 +1,7 @@
 # Cahier de texte d'informatique en MP2I
 
+Ce cahier de texte est accessible sur https://github.com/mp2i-fsm/mp2i-2021/blob/main/cahier_texte.md avec une meilleure mise en page
+
 | Date | Type | Contenu | Devoir donné |
 |---|---|---|---|
 | 30/08 | Stage | Révisions Python |  |
