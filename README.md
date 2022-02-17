@@ -19,7 +19,7 @@ EdT pour l'option informatique :
 | 16h-17h |  |  |  | TD groupe 1 H32 |  |
 | 17h-18h |  |  |  | Approfondissement/accompagnement H32 (optionnel) |  |
 
-[Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation suffisamment simple pour des étudiants.
+[Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation pour les étudiants. Inscrivez-vous au plus tard le 17 février. Il y a plusieurs sessions, avec possibilité de résoudre des problèmes avec C, OCaml, Python... C'est un très bon entraînement.
 
 # Cours d'informatique en MP2I
 
