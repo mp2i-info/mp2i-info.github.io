@@ -87,6 +87,7 @@ nav:
       - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
   - Algorithmique:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
+    - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
   - DS / DM:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
