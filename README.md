@@ -1,7 +1,5 @@
 [Programme DS 5](https://github.com/mp2i-fsm/mp2i-2021/blob/main/ds/ds5/prog_ds5.md)
 
-[Groupe d'informatique pour le second semestre](https://github.com/mp2i-fsm/mp2i-2021/raw/c5123b05901fbf25599460b8c1d689f78006a16c/0_intro/groupe_option_info.pdf)
-
 [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation pour les étudiants. Il y a une session d'entraînement qui finit le 18 février et la première vraie session le 20 mars (voir https://codingcompetitions.withgoogle.com/kickstart/schedule). Il y a plusieurs sessions, avec possibilité de résoudre des problèmes avec C, OCaml, Python... C'est un très bon entraînement. Inscrivez-vous !
 
 # Cours d'informatique en MP2I
