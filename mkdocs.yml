@@ -91,6 +91,8 @@ nav:
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
+    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/sujets/N006.pdf
+    - "DS 5 : Rapport": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/rapCS2021MP.pdf    
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
     - "DS 4 : Classement": ds/ds4/rank_ds4.png
     - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
