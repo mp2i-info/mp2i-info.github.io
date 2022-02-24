@@ -91,8 +91,8 @@ nav:
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
-    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": ds/ds5/cs21.pdf
-    - "DS 5 : Rapport": ds/ds5/cs21_rapport.pdf
+    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": ds/ds5/cs21.md
+    - "DS 5 : Rapport": ds/ds5/cs21_rapport.md
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
     - "DS 4 : Classement": ds/ds4/rank_ds4.png
     - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
