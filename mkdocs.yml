@@ -89,20 +89,19 @@ nav:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
     - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
   - DS / DM:
-    - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
-    - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
-    - "Classement DS 2": ds/ds2/rank_ds2.png
-    - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
-    - "Classement DS 3": ds/ds3/ds3.png
-    - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
-    - "DM 2 corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
+    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/sujets/N006.pdf
+    - "DS 5 : Rapport": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/rapCS2021MP.pdf
+    - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
+    - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor.ipynb
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
-    - "Classement DS 4": ds/ds4/rank_ds4.png
-    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": 
-      - Sujet: https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/sujets/N006.pdf
-      - Rapport: https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/rapCS2021MP.pdf
-      - Corrigé partiel: ds/ds5/cor/cs21_cor.md
-      - Notebook pour le corrigé partiel: ds/ds5/cor/cs21_cor.ipynb
+    - "DS 4 : Classement": ds/ds4/rank_ds4.png
+    - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
+    - "DS 3 : Classement": ds/ds3/ds3.png
+    - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
+    - "DS 2 : Classement": ds/ds2/rank_ds2.png
+    - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
+    - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
+    - "DM 2 : corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
 plugins:
   - mkdocs-jupyter
   - search
