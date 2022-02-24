@@ -89,8 +89,6 @@ nav:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
     - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
   - DS / DM:
-    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/sujets/N006.pdf
-    - "DS 5 : Rapport": https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/rapCS2021MP.pdf
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
