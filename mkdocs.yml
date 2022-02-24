@@ -98,6 +98,11 @@ nav:
     - "DM 2 corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
     - "Classement DS 4": ds/ds4/rank_ds4.png
+    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": 
+      - Sujet: https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/sujets/N006.pdf
+      - Rapport: https://www.concours-centrale-supelec.fr/CentraleSupelec/2021/MP/rapCS2021MP.pdf
+      - Corrigé partiel: ds/ds5/cor/cs21_cor.md
+      - Notebook pour le corrigé partiel: ds/ds5/cor/cs21_cor.ipynb
 plugins:
   - mkdocs-jupyter
   - search
