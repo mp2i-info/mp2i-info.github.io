@@ -88,6 +88,8 @@ nav:
   - Algorithmique:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
     - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
+    - TD:
+      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
