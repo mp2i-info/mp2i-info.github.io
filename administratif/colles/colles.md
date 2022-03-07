@@ -1,4 +1,4 @@
-| Semaine | Mercredi 13h30-14h30<br>RF43 | Jeudi 15-16h<br>RF31 | Jeudi 16-17h<br>RF31 |
+| Semaine | Mercredi 13h30-14h30<br>RF43<br>M. Fortier | Jeudi 15-16h<br>RF31<br>M. Bricout | Jeudi 16-17h<br>RF31<br>M. Bricout |
 |:---:|:---:|:---:|:---:|
 | 14 mars | 1 | 2 | 3 |
 | 21 mars | 4 | 5 | 6 |
