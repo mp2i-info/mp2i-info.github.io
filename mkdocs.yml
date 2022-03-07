@@ -88,6 +88,7 @@ nav:
   - Algorithmique:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
     - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
+    - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
     - TD:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
   - DS / DM:
