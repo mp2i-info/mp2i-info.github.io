@@ -18,6 +18,6 @@
 | 4 | Laurent | Alexandre | Eloi |
 | 5 | Gabriel | Armand | Thomas |
 | 6 | Augustin | Chloé | Romain |
-| 7 | Baptiste | Artem | Nils |
+| 7 | Baptiste | François-Xavier | Émilien |
 | 8 | Côme | Léonardo | Icham |
 | 9 | Grégoire | Pierre | Basile |
