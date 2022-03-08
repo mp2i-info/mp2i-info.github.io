@@ -1,3 +1,5 @@
+Programme de colle semaine du 14 mars : algorithmes gloutons, diviser pour régner, programmation dynamique
+
 [Conseils pour la programmation en TIPE](tipe/projet_tipe.pdf)
 
 [Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md)  
