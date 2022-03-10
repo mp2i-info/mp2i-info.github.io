@@ -91,6 +91,7 @@ nav:
     - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
     - TD:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
+      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
