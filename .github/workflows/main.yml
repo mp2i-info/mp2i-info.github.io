@@ -28,7 +28,7 @@ jobs:
     
       - name: mkdocs
         run: |
-          pip install mkdocs-material # mkdocs-jupyter
+          pip install mkdocs-material jupyter # mkdocs-jupyter
           # pip install git+https://github.com/fortierq/mkdocs-jupyter.git
           mkdir -p docs
           TMP_DIR=$(mktemp -d)
