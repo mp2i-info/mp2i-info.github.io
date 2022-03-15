@@ -86,6 +86,7 @@ nav:
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
       - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
+      - "TD 3 : Plus courts chemins": 6_graph/td/4_shortest_paths/td_shortest.md
   - Algorithmique:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
     - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
