@@ -1,5 +1,8 @@
 Programme de colle semaine du 14 mars : algorithmes gloutons, diviser pour régner, programmation dynamique
 
+Voici une liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...) : https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique/
+Remarque : les écoles généralistes (Centrale, Mines...) proposent presque toutes une filière d'informatique, même si ce n'est pas forcément la vocation principale
+
 [Conseils pour la programmation en TIPE](tipe/projet_tipe.pdf)
 
 [Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md)  
