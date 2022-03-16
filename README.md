@@ -14,6 +14,7 @@ Remarque : les écoles généralistes (Centrale, Mines...) proposent presque tou
 
 [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation pour les étudiants. Il y a une session d'entraînement qui finit le 18 février et la première vraie session le 20 mars (voir https://codingcompetitions.withgoogle.com/kickstart/schedule). Il y a plusieurs sessions, avec possibilité de résoudre des problèmes avec C, OCaml, Python... C'est un très bon entraînement. Inscrivez-vous !
 
+Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/), [leetcode](https://leetcode.com)
 # Cours d'informatique en MP2I
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
