@@ -9,7 +9,8 @@ Remarque : les écoles généralistes (Centrale, Mines...) proposent presque tou
 
 [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
 
-[Des informations sur le concours INFO MP/MPI aux ENS](https://diplome.di.ens.fr/informatique-ens)
+[Concours INFO MP/MPI aux ENS](https://diplome.di.ens.fr/informatique-ens)
+[Concours Mines Pont 2023](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
 
 [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation pour les étudiants. Il y a une session d'entraînement qui finit le 18 février et la première vraie session le 20 mars (voir https://codingcompetitions.withgoogle.com/kickstart/schedule). Il y a plusieurs sessions, avec possibilité de résoudre des problèmes avec C, OCaml, Python... C'est un très bon entraînement. Inscrivez-vous !
 
