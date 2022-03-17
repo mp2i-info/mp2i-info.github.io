@@ -109,6 +109,8 @@ nav:
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
     - "DM 2 : corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
+  - Colles
+    - "Programmation dynamique": colles/dpr_dyn/dpr_dyn.md
 plugins:
   - mkdocs-jupyter
   - search
