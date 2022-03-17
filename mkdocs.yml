@@ -95,8 +95,8 @@ nav:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
       - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
   - DS / DM:
-    - "DS 5 : Classement": ds/ds5/rank_ds5.png
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
+    - "DS 5 : Classement": ds/ds5/rank_ds5.png
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
     - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": ds/ds5/cs21.md
     - "DS 5 : Rapport": ds/ds5/cs21_rapport.md
