@@ -1,4 +1,4 @@
-Programme de colle semaine du 14 mars : algorithmes gloutons, diviser pour régner, programmation dynamique
+Programme de colle semaine du 21 mars : plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
 
 [Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
 Remarque : les écoles généralistes (Centrale, Mines...) proposent presque toutes une filière d'informatique, même si ce n'est pas forcément la vocation principale
