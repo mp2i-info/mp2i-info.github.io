@@ -1,4 +1,4 @@
-Programme de colle semaine du 21 mars : plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
+Programme de colle semaine du 21 mars : programmation dynamique et plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
 
 [Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
 Remarque : les écoles généralistes (Centrale, Mines...) proposent presque toutes une filière d'informatique, même si ce n'est pas forcément la vocation principale
@@ -9,7 +9,7 @@ Remarque : les écoles généralistes (Centrale, Mines...) proposent presque tou
 
 [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
 
-[Concours INFO MP/MPI aux ENS](https://diplome.di.ens.fr/informatique-ens)
+[Concours INFO MP/MPI aux ENS](https://diplome.di.ens.fr/informatique-ens)  
 [Concours Mines Pont 2023](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
 
 [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart) est une compétition de programmation pour les étudiants. Il y a une session d'entraînement qui finit le 18 février et la première vraie session le 20 mars (voir https://codingcompetitions.withgoogle.com/kickstart/schedule). Il y a plusieurs sessions, avec possibilité de résoudre des problèmes avec C, OCaml, Python... C'est un très bon entraînement. Inscrivez-vous !
