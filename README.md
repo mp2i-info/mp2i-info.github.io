@@ -1,5 +1,7 @@
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
+MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml avec complétion automatique/utop/...
+
 Programme de colle semaine du 21 mars : programmation dynamique et plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
 
 [Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
@@ -26,4 +28,4 @@ Les langages au programme sont OCaml, C et SQL.
 
 [Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
 
-[Utiliser Jupyter (**nouveau : machine virtuelle**)](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install)
+[Utiliser Jupyter](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install)
