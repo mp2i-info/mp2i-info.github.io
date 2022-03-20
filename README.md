@@ -1,6 +1,6 @@
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
-MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml avec complétion automatique/utop/...
+MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
 
 Programme de colle semaine du 21 mars : programmation dynamique et plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
 
