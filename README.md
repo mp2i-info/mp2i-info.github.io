@@ -1,3 +1,5 @@
+Programme du DS : graphes, plus courts chemins (Dijkstra, Floyd-Warshall), programmation dynamique, diviser pour régner, algorithmes gloutons
+
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
 MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
