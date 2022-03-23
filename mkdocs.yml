@@ -85,7 +85,7 @@ nav:
     - "Plus courts chemins": 6_graph/4_shortest_path/graph_shortest_path.md
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
-      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
+      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2_cor.md
       - "TD 3 : Plus courts chemins": 6_graph/td/4_shortest_paths/td_shortest.md
       - "Concours Mines-Pont 2016": 6_graph/td/mines16.
       - 6_graph/tp/tp_shortest.ipynb
