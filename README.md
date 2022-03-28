@@ -1,10 +1,8 @@
-Programme du DS : graphes, plus courts chemins (Dijkstra, Floyd-Warshall), programmation dynamique, diviser pour régner, algorithmes gloutons
+Programme de colle semaine du 28 mars : programmation dynamique, plus courts chemins dans un graphe pondéré et recherche dans une chaîne de caractères (cours du 29 mars).
 
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
 MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
-
-Programme de colle semaine du 28 mars : programmation dynamique, plus courts chemins dans un graphe pondéré et recherche dans une chaîne de caractères (cours du 29 mars).
 
 [Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
 
