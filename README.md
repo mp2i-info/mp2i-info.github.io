@@ -4,7 +4,7 @@ Programme du DS : graphes, plus courts chemins (Dijkstra, Floyd-Warshall), progr
 
 MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
 
-Programme de colle semaine du 21 mars : programmation dynamique et plus courts chemins dans un graphe pondéré. Il faut connaître et savoir appliquer Dijkstra et Floyd-Warshall (par contre Bellman-Ford n'est pas au programme).
+Programme de colle semaine du 28 mars : programmation dynamique, plus courts chemins dans un graphe pondéré et recherche dans une chaîne de caractères (cours du 29 mars).
 
 [Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
 
