@@ -1,4 +1,4 @@
-Programme de colle semaine du 28 mars : programmation dynamique, plus courts chemins dans un graphe pondéré et recherche dans une chaîne de caractères (cours du 29 mars).
+Programme de colle semaine du 4 avril : chaînes de caractères, recherche d'un sous-mot, programmation dynamique sur les chaînes de caractères...
 
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
