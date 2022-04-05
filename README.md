@@ -4,10 +4,6 @@ Programme de colle semaine du 4 avril : chaînes de caractères, recherche d'un 
 
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
-MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
-
-[Liste d'écoles d'informatique (ne pas faire trop attention au classement, pas forcément très pertinent...)](https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement-informatique)  
-
 [Conseils pour la programmation en TIPE](tipe/projet_tipe.pdf)
 
 [Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md)  
