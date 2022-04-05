@@ -1,5 +1,7 @@
 Programme de colle semaine du 4 avril : chaînes de caractères, recherche d'un sous-mot, programmation dynamique sur les chaînes de caractères...
 
+[Bibliothèque de programmation avec les algorithmes/structures de données MP2I](https://github.com/fortierq/mp2i-library)
+
 [Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
 
 MAJ de [l'image virtuelle Debian](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install) pour avoir OCaml + Visual Code avec complétion automatique/utop/...
