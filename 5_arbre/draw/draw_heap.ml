@@ -1,4 +1,4 @@
-#use "/home/jovyan/work/5_arbre/draw/draw_tree.ml";;
+#use "/home/jovyan/mp2i-2021/5_arbre/draw/draw_tree.ml";;
 
 type 'a heap = { a : 'a array; mutable n : int };;
 
