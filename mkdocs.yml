@@ -103,7 +103,8 @@ nav:
     - TP:
       - 8_string/tp/tp1_string_search.ipynb
   - Logique:
-    - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.pdf
+    - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.md
+    - "Logique propositionelle : Sémantique": 9_logic/2_semantic_propositional/semantic_propositional.md
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Classement": ds/ds5/rank_ds5.png
