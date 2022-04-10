@@ -102,6 +102,8 @@ nav:
       - "TD : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
     - TP:
       - 8_string/tp/tp1_string_search.ipynb
+  - Logique:
+    - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.pdf
   - DS / DM:
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Classement": ds/ds5/rank_ds5.png
