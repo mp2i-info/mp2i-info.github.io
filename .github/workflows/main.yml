@@ -24,7 +24,7 @@ jobs:
         with:
           env: 'fortierq/binder-mp2i'
           branch-env: 'main'
-          force: 'true'
+          server: 'basthon'
     
       - name: mkdocs
         run: |
