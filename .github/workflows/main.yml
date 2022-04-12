@@ -20,7 +20,7 @@ jobs:
           node-version: '16'
 
       - name: add_link
-        uses: fortierq/add-binder-link-action@v1
+        uses: fortierq/add-binder-link-action@latest
         with:
           env: 'fortierq/binder-mp2i'
           branch-env: 'main'
