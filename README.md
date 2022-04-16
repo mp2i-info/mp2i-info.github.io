@@ -1,4 +1,4 @@
-Programme de colle semaine du 11 avril : chaînes de caractères, recherche d'un sous-mot, programmation dynamique sur les chaînes de caractères...
+Programme de colle semaine du 18 avril : logique (formule logique, table de vérité, équivalences classiques : de Morgan..., SAT)
 
 [Bibliothèque de programmation avec les algorithmes/structures de données MP2I](https://github.com/fortierq/mp2i-library)
 
