@@ -1,6 +1,6 @@
 Programme de colle semaine du 18 avril : logique (formule logique, table de vérité, équivalences classiques : de Morgan..., SAT)
 
-[Cours en Python d'informatique commune en MPSI](https://fortierq.github.io/itc1/files/5_graph/3_traversal/traversal)
+[Il peut être intéressant de jeter un coup d'oeil au cours d'informatique commune en MPSI (Python)](https://fortierq.github.io/itc1/files/5_graph/3_traversal/traversal)
 
 [Bibliothèque de programmation avec les algorithmes/structures de données MP2I](https://github.com/fortierq/mp2i-library)
 
