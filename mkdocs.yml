@@ -107,6 +107,8 @@ nav:
     - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.md
     - "Logique propositionelle : Sémantique": 9_logic/2_semantic_propositional/semantic_propositional.md
     - "Problème SAT": 9_logic/3_sat/sat.md
+    - "Algorithme de Quine et backtracking": 9_logic/4_quine/quine.md
+    - 9_logic/logic.ipynb
     - "TD Logique 1": 9_logic/td/td1/td_logique.md
     - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
     - 9_logic/td/xens_sat.ipynb
