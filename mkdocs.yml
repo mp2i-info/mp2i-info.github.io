@@ -109,6 +109,7 @@ nav:
     - "Problème SAT": 9_logic/3_sat/sat.md
     - "TD Logique 1": 9_logic/td/td1/td_logique.md
     - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
+    - td/xens_sat.ipynb
   - DS / DM:
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
