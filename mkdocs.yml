@@ -115,7 +115,7 @@ nav:
     - 9_logic/td/xens_sat.ipynb
   - DS / DM:
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
-    - "DS 5 : Classement": ds/ds6/ds6.png
+    - "DS 6 : Classement": ds/ds6/ds6.png
     - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
     - "DS 5 : Classement": ds/ds5/rank_ds5.png
     - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
