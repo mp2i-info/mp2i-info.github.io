@@ -1,17 +1,6 @@
-[Il peut être intéressant de jeter un coup d'oeil au cours d'informatique commune en MPSI (Python)](https://fortierq.github.io/itc1/files/5_graph/3_traversal/traversal)
+[TIPE](tipe/projet_tipe.pdf) [Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md) [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
 
-[Bibliothèque de programmation avec les algorithmes/structures de données MP2I](https://github.com/fortierq/mp2i-library)
-
-[Basthon](https://notebook.basthon.fr/ocaml/) est une alternative plus rapide (exécuté dans le navigateur) à Binder, mais seulement pour OCaml 
-
-[Conseils pour la programmation en TIPE](tipe/projet_tipe.pdf)
-
-[Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md)  
-
-[Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
-
-[Concours INFO MP/MPI aux ENS](https://diplome.di.ens.fr/informatique-ens)  
-[Concours Mines Pont 2023](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
+Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
 
 Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/), [leetcode](https://leetcode.com)
 
