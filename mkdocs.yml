@@ -87,9 +87,9 @@ nav:
     - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/files/5_graph/1_definition/1_graph/
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
-      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2_cor.md
+      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
       - "TD 3 : Plus courts chemins": 6_graph/td/4_shortest_paths/td_shortest.md
-      - "Concours Mines-Pont 2016": 6_graph/td/mines16.
+      - "Concours Mines-Pont 2016": 6_graph/td/mines16.pdf
       - 6_graph/tp/tp_shortest.ipynb
   - Algorithmique:
     - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
