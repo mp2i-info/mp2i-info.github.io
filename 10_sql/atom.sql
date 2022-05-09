@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS "atome" (
+CREATE TABLE "atome" (
   "id" BIGINT,
   "nom" TEXT,
   "slug" TEXT,
