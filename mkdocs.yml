@@ -114,6 +114,7 @@ nav:
     - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
     - 9_logic/td/xens_sat.ipynb
   - SQL:
+    - "Définitions et SELECT": 10_sql/sql1/sql1.pdf
     - 10_sql/metro/metro.ipynb
   - DS:
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
