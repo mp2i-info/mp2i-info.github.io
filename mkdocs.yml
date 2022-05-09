@@ -116,6 +116,7 @@ nav:
   - SQL:
     - "Définitions et SELECT": 10_sql/sql1/sql1.pdf
     - 10_sql/metro/metro.ipynb
+    - 10_sql/pokemon/pokemon.ipynb
   - DS:
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
