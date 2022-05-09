@@ -1,5 +1,3 @@
-PRAGMA foreign_keys=OFF;
-BEGIN TRANSACTION;
 CREATE TABLE my_table (
         "index" BIGINT, 
         "Rang" BIGINT, 
