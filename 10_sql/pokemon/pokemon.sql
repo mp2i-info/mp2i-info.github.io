@@ -1,5 +1,14 @@
 
 
+
+
+
+
+DROP TABLE IF EXISTS detient_pokemons, est_type, evolue_en;
+DROP TABLE IF EXISTS attaques, types, pokemons, dresseurs;
+
+
+
 CREATE TABLE pokemons (
 	id SERIAL NOT NULL,
 	nom varchar(10) NOT NULL,
