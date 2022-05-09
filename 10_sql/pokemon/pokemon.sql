@@ -1,24 +1,24 @@
--- Pokemon Database
--- Base de données des pokemon de la première version
--- Utilisée à des fins pédagogiques
 
--- Bastien Thouverez
+
+
+
+
 
 DROP TABLE IF EXISTS detient_pokemons, est_type, evolue_en;
 DROP TABLE IF EXISTS attaques, types, pokemons, dresseurs;
 
--- Structure de la table pokemons
--- Table de base
+
+
 CREATE TABLE pokemons (
 	id SERIAL NOT NULL,
 	nom varchar(10) NOT NULL,
 	PRIMARY KEY(id)
 );
 
--- Table evolue_en
--- Un pokémon peut évoluer en un autre pokémon à un certain niveau
--- lvl = -1 -> nécessite une pierre pour évoluer
--- lvl = -2 -> nécessite un échange pour évoluer
+
+
+
+
 CREATE TABLE evolue_en (
 	pokemon_base_id int NOT NULL,
 	pokemon_evol_id int NOT NULL,
@@ -27,16 +27,16 @@ CREATE TABLE evolue_en (
 	FOREIGN KEY(pokemon_evol_id) REFERENCES pokemons(id)
 );
 
--- Structure de la table type
--- Table des types, pour les pokemons et les attaques
+
+
 CREATE TABLE types (
 	id SERIAL NOT NULL,
 	libelle varchar(10) NOT NULL,
 	PRIMARY KEY(id)
 );
 
--- Structure de la table est_type
--- Fait le lien entre un pokemon et un type
+
+
 CREATE TABLE est_type (
 	pokemon_id int NOT NULL,
 	type_id int NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE est_type (
 	FOREIGN KEY(type_id) REFERENCES types(id)
 );
 	
--- Structure de la table dresseurs
+
 CREATE TABLE dresseurs (
 	id SERIAL NOT NULL,
 	nom varchar(25) NOT NULL,
@@ -52,8 +52,8 @@ CREATE TABLE dresseurs (
 );
 
 
--- Table détientPokémon
--- Un dresseur détient au maximum 6 pokémons
+
+
 CREATE TABLE detient_pokemons (
 	dresseur_id int NOT NULL, 
 	pokemon_id int NOT NULL,  
@@ -62,8 +62,8 @@ CREATE TABLE detient_pokemons (
 	FOREIGN KEY(pokemon_id) REFERENCES pokemons(id)
 );
 
--- Structure de la table attaque
--- Attaques des pokémons
+
+
 CREATE TABLE attaques (
 	id SERIAL NOT NULL,
 	libelle varchar(50) NOT NULL,
@@ -75,45 +75,45 @@ CREATE TABLE attaques (
 	FOREIGN KEY(type_id) REFERENCES types(id)
 );
 
--- Attaques
--- https://www.pokemontrash.com/rouge-bleu-jaune/liste-attaques.php
 
 
 
--- Gestion de la carte du monde
--- Tous les élements de la carte sont regroupés dans une table afin qu'ils aient un id unique
--- Les élements de la map sont: des villes, des sites et des routes
--- Les routes ont l'id de leur numéro
--- CREATE TABLE mapElement (
--- 	'id_elem' SERIAL NOT NULL PRIMARY KEY
--- );
--- 
--- CREATE TABLE ville (
--- 	'id_ville' int NOT NULL, -- FK mapElement(id_elem)
--- 	'nom_ville' varchar(25) 
--- );
--- 
--- CREATE TABLE site (
--- 	'id_site' int NOT NULL, -- FK mapElement(id_elem)
--- 	'nom_site' varchar(25)
--- );
--- 
--- CREATE TABLE route (
--- 	'id_route' int NOT NULL, -- FK mapElement(id_elem)
--- 	'type_route' varchar(20) NOT NULL -- maritime ou terrestre
--- );
--- 
--- -- id_elem peut représenter une route ou un site:
--- --   Une route relie deux elements de la carte
--- --   Un site a une entrée et une sortie qui sont des éléments de map
--- CREATE TABLE liensMap (
--- 	'id_elem' int NOT NULL, -- FK route(id_route)
--- 	'id_elem_in' int NOT NULL, -- FK mapElement(id_elem)
--- 	'id_elem_out' int NOT NULL -- FK mapElement(id_elem)
--- );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --
--- DATA
+
 --
 
 TRUNCATE TABLE attaques CASCADE;
@@ -121,7 +121,7 @@ TRUNCATE TABLE types CASCADE;
 TRUNCATE TABLE pokemons CASCADE;
 TRUNCATE TABLE dresseurs CASCADE;
 
--- http://www.g33kmania.com/liste-pokemon-generation-1/
+
 INSERT INTO pokemons (id, nom) VALUES
 	(  1, 'Bulbizarre'),
 	(  2, 'Herbizarre'),
@@ -151,11 +151,11 @@ INSERT INTO pokemons (id, nom) VALUES
 	( 26, 'Raichu'),
 	( 27, 'Sabelette'),
 	( 28, 'Sablaireau'),
-	-- ( 29, 'Nidoran♀'),
+	
 	( 29, 'NidoranF'),
 	( 30, 'Nidorina'),
 	( 31, 'Nidoqueen'),
-	-- ( 32, 'Nidoran♂'),
+	
 	( 32, 'NidoranM'),
 	( 33, 'Nidorino'),
 	( 34, 'Nidoking'),
@@ -678,8 +678,8 @@ INSERT INTO est_type (pokemon_id, type_id) VALUES
 	(151, 11);
 
 
--- arenes https://www.pokebip.com/page__jeuxvideo__rbvj__champions_arene.html
--- ligue https://www.pokebip.com/page__jeuxvideo__rbvj__conseil4.html
+
+
 INSERT INTO dresseurs (id, nom) VALUES 
 	(2, 'Pierre'),
 	(3, 'Ondine'),
@@ -695,60 +695,60 @@ INSERT INTO dresseurs (id, nom) VALUES
 	(13, 'Peter');
 
 INSERT INTO detient_pokemons (dresseur_id, pokemon_id, niveau) VALUES
-	-- Pierre: Raccaillou 12, Onix 14 
+	
 	(2, 74, 12),
 	(2, 95, 14),
-	-- Ondine: Stari 18, Staross 21
+	
 	(3, 120, 18),
 	(3, 121, 21),
-	-- Major Bob: Voltorbe 21, Pikachu 18, Raichu 24
+	
 	(4, 100, 21),
 	(4, 25, 18),
 	(4, 26, 24),
-	-- Erika: Empiflor 29, Saquedeneu 24, Rafflesia 29
+	
 	(5, 71, 29),
 	(5, 114, 24),
 	(5, 45, 29),
-	-- Koga: Smogo 37, Grotadmorv 39, Smogo 37, Smogogo 43
+	
 	(6, 109, 37),
 	(6, 89, 39),
 	(6, 109, 37),
 	(6, 110, 43),
-	-- Morgane: Kadabra 38, M.  Mime 37, Aeromite 38, Alakazam 43
+	
 	(7, 64, 38),
 	(7, 122, 37),
 	(7, 49, 38),
 	(7, 65, 43),
-	-- Auguste: Caninos 42, Ponyta 40, Galopa 42, Arcanin 47
+	
 	(8, 58, 42),
 	(8, 77, 40),
 	(8, 78, 42),
 	(8, 59, 47),
-	-- Giovanni: Rhinocorne 45, Triopikeur 42, Nidoqueen 44, Nodiking 45, Rhinoferos 50
+	
 	(9, 111, 42),
 	(9, 51, 42),
 	(9, 31, 44),
 	(9, 34, 45),
 	(9, 112, 50),
-	-- Olga: Lamantine 54, Crustabri 53, Flagadoss 54, Lippoutou 56, Lokhlass 56
+	
 	(10, 87, 54),
 	(10, 91, 53),
 	(10, 80, 54),
 	(10, 124, 56),
 	(10, 131, 56),
-	-- Aldo: Onix 53, Tygnon 55, Kicklee 55, Onix 56, Mackogneur 58
+	
 	(11, 95, 53),
 	(11, 107, 55),
 	(11, 106, 55),
 	(11, 95, 56),
 	(11, 68, 58),
-	-- Agatha: Ectoplasma 56, Nosferalto 56, Spectrum 55, Arbok 58, Ectoplasma 60
+	
 	(12, 94, 56),
 	(12, 42, 56),
 	(12, 93, 55),
 	(12, 24, 58),
 	(12, 94, 60),
-	-- Peter: Leviator 58, Draco 56,  Draco 56, Ptera 60, Dracolosse 62
+	
 	(13, 130, 58),
 	(13, 148, 56),
 	(13, 148, 56),
@@ -756,9 +756,9 @@ INSERT INTO detient_pokemons (dresseur_id, pokemon_id, niveau) VALUES
 	(13, 149, 62);
 
 
--- evolutions
+
 INSERT INTO evolue_en (pokemon_base_id, pokemon_evol_id, niveau) VALUES
--- http://www.pokepedia.fr/Liste_des_Pok%C3%A9mon_par_famille_d%27%C3%A9volution
+
 	(  1,   2, 16),
 	(  2,   3, 32),
 	(  4,   5, 16),
