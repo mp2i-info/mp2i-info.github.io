@@ -78,7 +78,7 @@ nav:
       - "TD 5 : Arbre binaire de recherche équilibré": 5_arbre/tp_td/td5_balanced/td_balanced.md
       - 5_arbre/tp_td/tp6_segment/tp_segment.ipynb
       - "TD 7 : File de priorité et tas": 5_arbre/tp_td/td7_heap/td_heap.md
-      - "TD 8 : Arbre croissant (X-ENS 2014)": 5_arbre/tp_td/td8_arbre_croissant.pdf
+      - "TD 8 : Arbre croissant (X-ENS 2014)": 5_arbre/tp_td/td8_arbre_croissant.md
   - Graphes:
     - "Définitions": 6_graph/1_definition/graph_def.md
     - "Représentations": 6_graph/2_representation/2_representation.md
@@ -114,7 +114,7 @@ nav:
     - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
     - 9_logic/td/xens_sat.ipynb
   - SQL:
-    - "Définitions et SELECT": 10_sql/sql1/sql1.pdf
+    - "Définitions et SELECT": 10_sql/sql1/sql1.md
     - 10_sql/metro/metro.ipynb
     - 10_sql/pokemon/pokemon.ipynb
   - DS:
