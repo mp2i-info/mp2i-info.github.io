@@ -1,4 +1,6 @@
-[TIPE](tipe/projet_tipe.pdf) | [Colles](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/colles.md) | [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
+**Pas de colle jusqu'à nouvel ordre**
+
+[TIPE](tipe/projet_tipe.pdf) | [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
 
 Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
 
