@@ -102,6 +102,7 @@ nav:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
       - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
       - "TD 3 : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
+      - 8_string/td/cmp22.ipynb
     - TP:
       - 8_string/tp/tp1_string_search.ipynb
   - Logique:
