@@ -1,5 +1,3 @@
-<iframe title="Notes MP2I S2" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=0020224c-97df-4170-822f-8592277cf2b6&autoAuth=true&ctid=ce824aa2-55d8-4d47-a651-ac0517b466a3&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtZXVyb3BlLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-
 **Pas de colle jusqu'à nouvel ordre**
 
 [TIPE](tipe/projet_tipe.pdf) | [Emploi du temps](https://github.com/mp2i-fsm/mp2i-2021/blob/main/administratif/colles/edt.md)
