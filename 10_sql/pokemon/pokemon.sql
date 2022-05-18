@@ -1,5 +1,5 @@
 CREATE TABLE pokemons (
-	id,
+	id INT,
 	nom TEXT,
 	PRIMARY KEY(id)
 );
