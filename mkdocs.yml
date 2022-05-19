@@ -115,9 +115,10 @@ nav:
     - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
     - 9_logic/td/xens_sat.ipynb
   - SQL:
-    - Cours:
+    - Une seule table:
       - "Cours 1 : Une seule table": 10_sql/1_select/sql_select.md
       - "Cours 2 : Plusieurs tables": 10_sql/2_join/sql_join.md
+      - "Cours 3 : GROUP BY": 10_sql/3_groupby/sql_groupby.md
     - Exercices:
       - 10_sql/metro/metro.ipynb
       - 10_sql/pokemon/pokemon.ipynb
