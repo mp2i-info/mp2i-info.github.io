@@ -9,5 +9,5 @@
 
 ## JOIN (À faire)
 
-- [Football](https://sqlzoo.net/wiki/The_JOIN_operation)  
+- [Football (jusqu'à la question 8 incluse)](https://sqlzoo.net/wiki/The_JOIN_operation)  
 - [Movie](https://sqlzoo.net/wiki/More_JOIN_operations)
