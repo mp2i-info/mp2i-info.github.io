@@ -10,4 +10,4 @@
 ## JOIN (À faire)
 
 - [Football (jusqu'à la question 8 incluse)](https://sqlzoo.net/wiki/The_JOIN_operation)  
-- [Movie](https://sqlzoo.net/wiki/More_JOIN_operations)
+- [Movie (jusqu'à la question 10 incluse)](https://sqlzoo.net/wiki/More_JOIN_operations)
