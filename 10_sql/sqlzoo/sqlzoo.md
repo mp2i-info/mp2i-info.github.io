@@ -1,4 +1,4 @@
-# Exercices SQL zoo
+# Exercices SQL Zoo
 
 [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) est un site proposant des exercices de SQL en ligne.
 
