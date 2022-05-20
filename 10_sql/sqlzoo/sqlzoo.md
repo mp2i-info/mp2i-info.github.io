@@ -17,3 +17,7 @@
 
 - [GROUP BY et World](https://sqlzoo.net/wiki/SUM_and_COUNT)
 - [Notes](https://sqlzoo.net/wiki/NSS_Tutorial)
+
+## SELECT imbriqués
+
+- [World](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial) 
