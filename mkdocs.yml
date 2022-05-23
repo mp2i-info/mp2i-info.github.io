@@ -120,7 +120,7 @@ nav:
       - "Cours 2 : Plusieurs tables": 10_sql/2_join/sql_join.md
       - "Cours 3 : GROUP BY": 10_sql/3_groupby/sql_groupby.md
       - "Cours 4 : SELECT imbriqués": 10_sql/4_imbrique/sql_imbrique.md
-      - "Cours 5 : Modèle entité-association" : 10_sql/5_er/er.md
+      - "Cours 5 : Modèle entité-association": 10_sql/5_er/er.md
       - Résumé: 10_sql/resume/sql_resume.md
     - Exercices:
       - 10_sql/metro/metro.ipynb
