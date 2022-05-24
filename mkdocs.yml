@@ -125,6 +125,7 @@ nav:
     - Exercices:
       - 10_sql/metro/metro.ipynb
       - 10_sql/pokemon/pokemon.ipynb
+      - 10_sql/sdss/sdss.md
       - 10_sql/sqlzoo/sqlzoo.md
   - DS:
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
