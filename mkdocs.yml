@@ -30,31 +30,36 @@ nav:
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
   - Analyse d'algo.:
-    - Complexité: 2_analyse_programme/1_complexite/complexite.md
-    - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
-    - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
+    - Cours:
+      - Complexité: 2_analyse_programme/1_complexite/complexite.md
+      - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
+    - Exercices:
+      - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
   - Structures linéaires:
-    - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
-    - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
-    - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1_cor.md
-    - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
-    - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
-    - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+    - Cours:
+      - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
+      - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
+    - Exercices:
+      - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1_cor.md
+      - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
+      - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
+      - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
   - C: 
     #- Références: 4_c/0_references.md
-    - 4_c/cours/0_intro.md
-    - 4_c/cours/1_type_base.ipynb
-    - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
-    - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
-    - 4_c/cours/2_condition_boucle.ipynb
-    - 4_c/cours/3_fonction.ipynb
-    - 4_c/cours/4_pointeur.ipynb
-    - 4_c/cours/5_struct.ipynb
-    - 4_c/cours/6_tableau.ipynb
-    - 4_c/cours/7_compilation/7_compilation.ipynb
-    - 4_c/cours/8_string.ipynb
-    - 4_c/cours/9_tableau_2d.ipynb
-    - TP:
+    - Cours:
+      - 4_c/cours/0_intro.md
+      - 4_c/cours/1_type_base.ipynb
+      - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
+      - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
+      - 4_c/cours/2_condition_boucle.ipynb
+      - 4_c/cours/3_fonction.ipynb
+      - 4_c/cours/4_pointeur.ipynb
+      - 4_c/cours/5_struct.ipynb
+      - 4_c/cours/6_tableau.ipynb
+      - 4_c/cours/7_compilation/7_compilation.ipynb
+      - 4_c/cours/8_string.ipynb
+      - 4_c/cours/9_tableau_2d.ipynb
+    - Exercices:
       - 4_c/tp/1_bitfield.ipynb
       - 4_c/tp/2_liste_chainee.ipynb
       - 4_c/tp/3_representation_binaire.ipynb
@@ -65,12 +70,13 @@ nav:
       - 4_c/tp/8_sudoku.ipynb
       - 4_c/tp/9_bash2/9_bash2.ipynb
   - Arbres:
-    - "Arbre binaire": 5_arbre/1_arbre_binaire/arbre_binaire.md
-    - "Parcours d'arbre": 5_arbre/2_parcours/parcours.md
-    - "Arbre binaire de recherche": 5_arbre/3_bst/bst.md
-    - "Arbre binaire de recherche équilibré": 5_arbre/4_balanced_tree/balanced_tree.md
-    - "File de priorité et tas": 5_arbre/5_heap/heap.md
-    - TP/TD:
+    - Cours:
+      - "Arbre binaire": 5_arbre/1_arbre_binaire/arbre_binaire.md
+      - "Parcours d'arbre": 5_arbre/2_parcours/parcours.md
+      - "Arbre binaire de recherche": 5_arbre/3_bst/bst.md
+      - "Arbre binaire de recherche équilibré": 5_arbre/4_balanced_tree/balanced_tree.md
+      - "File de priorité et tas": 5_arbre/5_heap/heap.md
+    - Exercices:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
       - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
       - 5_arbre/tp_td/tp3_arbre.ipynb
@@ -92,28 +98,31 @@ nav:
       - "Concours Mines-Pont 2016": 6_graph/td/mines16.pdf
       - 6_graph/tp/tp_shortest.ipynb
   - Algorithmique:
-    - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
-    - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
-    - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
-    - "Recherche de mot dans un texte": 8_string/1_search/search.md
-    - "Compression de texte": 8_string/2_compression/compression.md
-    - 8_string/2_compression/compression_code.ipynb
-    - TD:
+    - Cours:
+      - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
+      - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
+      - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
+      - "Recherche de mot dans un texte": 8_string/1_search/search.md
+      - "Compression de texte": 8_string/2_compression/compression.md
+      - 8_string/2_compression/compression_code.ipynb
+    - Exercices:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
       - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
       - "TD 3 : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
-      - 8_string/td/cmp22.ipynb
-    - TP:
       - 8_string/tp/tp1_string_search.ipynb
+      - 8_string/td/cmp22.ipynb
   - Logique:
-    - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.md
-    - "Logique propositionelle : Sémantique": 9_logic/2_semantic_propositional/semantic_propositional.md
-    - "Problème SAT": 9_logic/3_sat/sat.md
-    - "Algorithme de Quine et backtracking": 9_logic/4_quine/quine.md
-    - 9_logic/logic.ipynb
-    - "TD Logique 1": 9_logic/td/td1/td_logique.md
-    - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
-    - 9_logic/td/xens_sat.ipynb
+    - Cours:
+      - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.md
+      - "Logique propositionelle : Sémantique": 9_logic/2_semantic_propositional/semantic_propositional.md
+      - "Problème SAT": 9_logic/3_sat/sat.md
+      - "Algorithme de Quine et backtracking": 9_logic/4_quine/quine.md
+      - 9_logic/logic.ipynb
+    - Exercices:
+      - "TD Logique 1": 9_logic/td/td1/td_logique.md
+      - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
+      - 9_logic/td/xens_sat.ipynb
+      - 9_logic/td/solver/solver.ipynb
   - SQL:
     - Cours:
       - "Cours 1 : Une seule table": 10_sql/1_select/sql_select.md
@@ -129,6 +138,7 @@ nav:
       - 10_sql/sqlzoo/sqlzoo.md
   - "Fin d'année":
     - 8_string/td/cmp22.ipynb
+    - 9_logic/td/solver/solver.ipynb
   - DS:
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
