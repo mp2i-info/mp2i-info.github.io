@@ -127,6 +127,8 @@ nav:
       - 10_sql/pokemon/pokemon.ipynb
       - 10_sql/sdss/sdss.md
       - 10_sql/sqlzoo/sqlzoo.md
+  - "Fin d'année":
+    - 8_string/td/cmp22.ipynb
   - DS:
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
