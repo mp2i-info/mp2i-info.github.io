@@ -4,7 +4,7 @@
 
 Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
 
-Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/), [leetcode](https://leetcode.com)
+Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/) | [leetcode](https://leetcode.com)
 
 # Cours d'informatique en MP2I
 
