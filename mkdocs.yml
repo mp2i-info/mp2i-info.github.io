@@ -7,7 +7,8 @@ nav:
   - Basthon: https://notebook.basthon.fr/ocaml
   - Librairie: https://github.com/fortierq/mp2i-library
   - Intro:
-    - Cours de prérentrée: 0_intro/stage/stage.md
+    - Cours du stage de prérentrée: 0_intro/stage/stage.md
+    - Exercices du stage de prérentrée: 0_intro/stage/exos_python.ipynb
     - Introduction à la MP2I: 0_intro/0_intro.md
     - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
     - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
