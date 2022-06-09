@@ -142,6 +142,7 @@ nav:
     - 9_logic/td/solver/solver.ipynb
     - 11_tp_additional/module/module.ipynb
     - 11_tp_additional/revision_ccb/revision_ccb.ipynb
+    - Oraux blancs: colles/oral_blanc.md
   - DS:
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
