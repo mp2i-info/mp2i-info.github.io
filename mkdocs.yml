@@ -144,6 +144,7 @@ nav:
     - 11_tp_additional/revision_ccb/revision_ccb.ipynb
     - Oraux blancs: colles/oral_blanc.md
   - DS:
+    - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
