@@ -145,6 +145,7 @@ nav:
     - Oraux blancs: colles/oral_blanc.md
   - DS:
     - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
+    - "DS 9 : Code": ds/ds9/cor/agreg_22_sujet0_cor.ipynb
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
     - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
@@ -162,7 +163,7 @@ nav:
     - "DS 2 : Classement": ds/ds2/rank_ds2.png
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
-    - "DM 2 : corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
+    - "DM 2 : Corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
   - Colles:
     - "Programmation dynamique": colles/dpr_dyn/dpr_dyn.md
 plugins:
