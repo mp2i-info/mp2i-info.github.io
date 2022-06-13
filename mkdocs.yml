@@ -35,6 +35,7 @@ nav:
       - Complexité: 2_analyse_programme/1_complexite/complexite.md
       - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
       - Tests: 2_analyse_programme/3_test/test_coverage_cfg.md
+      - Compléments de complexité: 2_analyse_programme/4_complexite/complexite_complement.md
     - Exercices:
       - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
   - Structures linéaires:
