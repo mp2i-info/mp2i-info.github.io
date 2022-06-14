@@ -2,7 +2,7 @@
 
 [Une vidéo très claire sur la FFT (transformée de Fourier rapide) pour multiplier deux polynômes de degré $n$ en O($nlog(n)$)](https://www.youtube.com/watch?v=h7apO7q16V0). Cela utilise beaucoup de notions de math et d'info : racines de l'unité, polynômes, inverse de matrice, diviser pour régner, récursivité...
 
-Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf)
+Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf) | [CCP](https://www.concours-commun-inp.fr/fr/epreuves/les-epreuves-ecrites.html)
 
 Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/) | [leetcode](https://leetcode.com)
 
