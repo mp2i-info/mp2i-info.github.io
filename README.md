@@ -1,4 +1,5 @@
-[**Faire le sujet zero CCP à partir de la question 13**](https://replit.com/@fortierq/CCPzero#main.c)
+[**Faire le sujet zero CCP à partir de la question 12**](https://replit.com/@fortierq/CCPzero#main.c)  
+La fonction de Q13 doit être de type `bool possible(Domino Di, Domino Dj)`.
 
 [Notes et classements (avec DS 9)](https://share.streamlit.io/fortierq/notes-mp2i/grade.py)
 
