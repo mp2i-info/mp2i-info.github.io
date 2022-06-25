@@ -3,7 +3,6 @@ site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 edit_uri: ""
 nav:
-  - Librairie: https://github.com/fortierq/mp2i-library
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
