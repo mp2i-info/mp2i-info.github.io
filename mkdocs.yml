@@ -21,7 +21,7 @@ nav:
       - 1_ocaml/tp/tp4.ipynb
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
-  - Analyse d'algo.:
+  - Analyse de programme:
     - Cours:
       - Complexité: 2_analyse_programme/1_complexite/complexite.md
       - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
@@ -99,7 +99,7 @@ nav:
     - Exercices:
       - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
       - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
-  - "Algo. du texte":
+  - "Algorithmique du texte":
     - Cours:
       - "Recherche de mot dans un texte": 8_string/1_search/search.md
       - "Compression de texte": 8_string/2_compression/compression.md
