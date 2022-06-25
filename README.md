@@ -2,7 +2,10 @@
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
 
-Pour programmer : [Binder](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain) | [Basthon](https://notebook.basthon.fr/ocaml) | [repl.it](https://replit.com/languages/c)  
+## Programmer
+
+| [Binder](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain) | [Basthon](https://notebook.basthon.fr/ocaml) | [repl.it](https://replit.com/languages/c) |
+|:------:|:----------:|:-------:|
 
 Librairie des algorithmes de MP2I : [en OCaml](https://github.com/fortierq/mp2i-library-ocaml) | [en C](https://github.com/fortierq/mp2i-library-c)  
 
