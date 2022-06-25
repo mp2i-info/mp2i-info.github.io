@@ -3,16 +3,7 @@ site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 edit_uri: ""
 nav:
-  - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
-  - Basthon: https://notebook.basthon.fr/ocaml
   - Librairie: https://github.com/fortierq/mp2i-library
-  - Intro:
-    - Cours du stage de prérentrée: 0_intro/stage/stage.md
-    - Exercices du stage de prérentrée: 0_intro/stage/exos_python.ipynb
-    - Introduction à la MP2I: 0_intro/0_intro.md
-    - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
-    - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
-    - Installer Jupyter: 0_intro/install.md
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
@@ -105,12 +96,15 @@ nav:
       - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
       - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
       - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
+    - Exercices:
+      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
+      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
+  - "Algo. du texte":
+    - Cours:
       - "Recherche de mot dans un texte": 8_string/1_search/search.md
       - "Compression de texte": 8_string/2_compression/compression.md
       - 8_string/2_compression/compression_code.ipynb
     - Exercices:
-      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
-      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
       - "TD 3 : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
       - 8_string/tp/tp1_string_search.ipynb
       - 8_string/td/cmp22.ipynb
