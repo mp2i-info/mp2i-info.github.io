@@ -105,7 +105,7 @@ nav:
       - "Compression de texte": 8_string/2_compression/compression.md
       - 8_string/2_compression/compression_code.ipynb
     - Exercices:
-      - "TD 3 : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
+      - "TD : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
       - 8_string/tp/tp1_string_search.ipynb
       - 8_string/td/cmp22.ipynb
   - Logique:
