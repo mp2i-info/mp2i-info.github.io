@@ -7,3 +7,26 @@ Librairie des algorithmes de MP2I : [en OCaml](https://github.com/fortierq/mp2i-
 Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf) | [CCP](https://www.concours-commun-inp.fr/fr/epreuves/les-epreuves-ecrites.html)
 
 [Programme officiel](https://prepas.org/index.php?document=73)
+
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script type="application/javascript">
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = 'rgb(200, 0, 0)';
+        ctx.fillRect(10, 10, 50, 50);
+
+        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+        ctx.fillRect(30, 30, 50, 50);
+      }
+    }
+  </script>
+ </head>
+ <body onload="draw();">
+   <canvas id="canvas" width="150" height="150"></canvas>
+ </body>
+</html>
