@@ -1,12 +1,13 @@
 const namespace = joint.shapes;
-
 const graph = new joint.dia.Graph({}, { cellNamespace: namespace });
+let s = document.getElementById('v-2');
+s.setAttribute("height", "400");
 
 new joint.dia.Paper({
     el: document.getElementById('graph'),
     model: graph,
-    width: 1600,
-    height: 800,
+    width: 800,
+    height: 400,
     // (to ensure that opening the link is not prevented on touch devices)
     elementView: joint.dia.ElementView.extend({
         events: {
@@ -74,11 +75,6 @@ function node(x, y, label, link, shape) {
 }
 
 const dx = 210, dy1 = 140, dy2 = dy1/4, dy3 = dy2/1.5;
-
-function right(n) {
-    const box = n.getBBox();
-    return box.x + box.width + dx;
-}
 
 function getY(n) {
     const box = n.getBBox();
