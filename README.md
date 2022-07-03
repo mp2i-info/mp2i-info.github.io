@@ -8,7 +8,7 @@ Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](
 
 [Programme officiel](https://prepas.org/index.php?document=73)
 
-<div id="graph"></div>
+<div id="graph" style="height: 400px; width: 800px;"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone.js"></script>
