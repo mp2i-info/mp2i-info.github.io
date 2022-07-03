@@ -6,7 +6,7 @@ new joint.dia.Paper({
     el: document.getElementById('graph'),
     model: graph,
     width: 1600,
-    height: 400,
+    height: 800,
     // (to ensure that opening the link is not prevented on touch devices)
     elementView: joint.dia.ElementView.extend({
         events: {
