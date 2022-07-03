@@ -4,8 +4,8 @@
     new joint.dia.Paper({
         el: document.getElementById('graph'),
         model: graph,
-        width: 800,
-        height: 400,
+        width: 1600,
+        height: 1600,
         // (to ensure that opening the link is not prevented on touch devices)
         elementView: joint.dia.ElementView.extend({
             events: {
