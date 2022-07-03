@@ -1,9 +1,6 @@
 function graph() {
     const namespace = joint.shapes;
     const graph = new joint.dia.Graph({}, { cellNamespace: namespace });
-    let s = document.getElementById('v-2');
-    if (s)
-        s.setAttribute("height", "400");
 
     new joint.dia.Paper({
         el: document.getElementById('graph'),
@@ -121,4 +118,8 @@ function graph() {
     const boyermoore = node(3*dx, getY(dict), 'Boyer-Moore', '', algo);
     link(priority, dijkstra);
     link(dict, boyermoore);
+
+    let s = document.getElementById('v-2');
+    if (s)
+        s.setAttribute("height", "400");
 }
