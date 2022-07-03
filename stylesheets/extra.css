@@ -15,3 +15,7 @@
     transform: none;   
   }
 }
+
+.md-typeset img, .md-typeset svg {
+    height: 100%;
+}
