@@ -5,7 +5,7 @@ const graph = new joint.dia.Graph({}, { cellNamespace: namespace });
 new joint.dia.Paper({
     el: document.getElementById('graph'),
     model: graph,
-    width: 800,
+    width: 1600,
     height: 400,
     // (to ensure that opening the link is not prevented on touch devices)
     elementView: joint.dia.ElementView.extend({
