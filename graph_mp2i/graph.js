@@ -111,6 +111,6 @@ const boyermoore = node(3*dx, getY(dict), 'Boyer-Moore', algo);
 link(priority, dijkstra);
 link(dict, boyermoore);
 
-node(dx/2, getY(array) + .75*dy1, 'Type concret', concrete);
-node(3*dx/2, getY(array) + .75*dy1, 'Type abstrait', abstract);
-node(5*dx/2 , getY(array) + .75*dy1, 'Algorithme', algo);
+node(dx/2, getY(array) + .7*dy1, 'Type concret', concrete);
+node(3*dx/2, getY(array) + .7*dy1, 'Type abstrait', abstract);
+node(5*dx/2 , getY(array) + .7*dy1, 'Algorithme', algo);
