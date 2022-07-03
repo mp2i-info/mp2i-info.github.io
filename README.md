@@ -12,16 +12,9 @@ Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.4.4/joint.js"></script>
-<script src="graph_mp2i/graph.js"></script>
 
 <body>
-    <div id="graph" style="height: 200px; width: 1600px;"></div>
-    <script> window.addEventListener('load',
-            function () {
-                let s = document.getElementById('v-2');
-                if (s)
-                    s.setAttribute("height", "400");
-            }, false);
-    </script>
+    <div id="graph" style="height: 400px; width: 1600px;"></div>
+    <script src="graph_mp2i/graph.js"></script>
 </body>
 
