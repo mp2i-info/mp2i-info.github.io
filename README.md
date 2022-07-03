@@ -12,7 +12,7 @@ Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.4.4/joint.js"></script>
 
 <body>
-    <div id="graph" style="height: 300px; width: 480px; margin: 0 auto;"></div>
+    <div id="graph" style="height: 450px; width: 800px; margin: 0px auto;"></div>
     <script src="graph_mp2i/graph.js"></script>
 </body>
 
