@@ -92,8 +92,8 @@ link(tree, heap);
 link(array, heap);
 link(array, hash);
 
-const bfs = node(2*dx, getY(queue), 'BFS', concrete);
-const dfs = node(2*dx, getY(stack), 'DFS', concrete);
+const bfs = node(2*dx, getY(queue), 'BFS', algo);
+const dfs = node(2*dx, getY(stack), 'DFS', algo);
 const huffman = node(2*dx, .5*(getY(stack) + getY(tree)), 'Huffman', algo);
 const priority = node(2*dx, .5*(getY(bst) + getY(heap)), 'File de priorité', abstract);
 const dict = node(2*dx, .5*(getY(heap) + getY(hash)), 'Dictionnaire', abstract);
