@@ -1,7 +1,8 @@
 const namespace = joint.shapes;
 const graph = new joint.dia.Graph({}, { cellNamespace: namespace });
 let s = document.getElementById('v-2');
-s.setAttribute("height", "400");
+if (s)
+    s.setAttribute("height", "400");
 
 new joint.dia.Paper({
     el: document.getElementById('graph'),
