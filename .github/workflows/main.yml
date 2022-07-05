@@ -51,13 +51,13 @@ jobs:
 
           cd docs
           for file in $(find . -type f -name "*.pdf"); do
-            fit=fit
+            fit=Fit
             name=$(basename $file)
             if [[ $name == td* ]] || [[ $name == TD* ]];
             then 
               fit=FitW
             fi
-            echo "<iframe src=../${name}#view=$fit height=700 width=100%></iframe>" > ${file%.*}.md
+            echo "<iframe src=../${name}#view=$fit&navpanes=0&statusbar=0 height=700 width=100%></iframe>" > ${file%.*}.md
           done
           cd ..
 
