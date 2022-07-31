@@ -160,9 +160,9 @@ plugins:
   - search
 theme:
   name: material
-  custom_dir: overrides
-  logo: icon.png
-  favicon: icon.png
+  custom_dir: site/overrides
+  logo: site/icon.png
+  favicon: site/icon.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -202,4 +202,4 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - stylesheets/extra.css
+  - site/stylesheets/extra.css
