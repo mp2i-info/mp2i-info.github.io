@@ -44,7 +44,7 @@ jobs:
           
           mv .git $TMP_DIR
           mv mkdocs.yml $TMP_DIR
-          mv overrides $TMP_DIR
+          mv site/overrides $TMP_DIR
           mv * docs/ || true
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
