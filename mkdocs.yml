@@ -1,6 +1,6 @@
 site_name: "Cours d'informatique en MP2I"
-site_url: https://mp2i-fsm.github.io/mp2i-2021
-repo_url: https://github.com/fortierq/mp2i-2021
+site_url: https://mp2i-info.github.io
+repo_url: https://github.com/mp2i-info/mp2i-info.github.io
 edit_uri: ""
 nav:
   - OCaml:
