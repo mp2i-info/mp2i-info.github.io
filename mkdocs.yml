@@ -42,7 +42,7 @@ nav:
   - C: 
     #- Références: 4_c/0_references.md
     - Cours:
-      - 4_c/cours/0_intro.md
+      # - 4_c/cours/0_intro.md
       - 4_c/cours/1_type_base.ipynb
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
@@ -123,17 +123,17 @@ nav:
       - 9_logic/td/solver/solver.ipynb
   - SQL:
     - Cours:
-      - "Cours 1 : Une seule table": 10_sql/1_select/sql_select.md
-      - "Cours 2 : Plusieurs tables": 10_sql/2_join/sql_join.md
-      - "Cours 3 : GROUP BY": 10_sql/3_groupby/sql_groupby.md
-      - "Cours 4 : SELECT imbriqués": 10_sql/4_imbrique/sql_imbrique.md
-      - "Cours 5 : Modèle entité-association": 10_sql/5_er/er.md
-      - Résumé: 10_sql/resume/sql_resume.md
+      - "Cours 1 : Une seule table": A_sql/1_select/sql_select.md
+      - "Cours 2 : Plusieurs tables": A_sql/2_join/sql_join.md
+      - "Cours 3 : GROUP BY": A_sql/3_groupby/sql_groupby.md
+      - "Cours 4 : SELECT imbriqués": A_sql/4_imbrique/sql_imbrique.md
+      - "Cours 5 : Modèle entité-association": A_sql/5_er/er.md
+      - Résumé: A_sql/resume/sql_resume.md
     - Exercices:
-      - 10_sql/metro/metro.ipynb
-      - 10_sql/pokemon/pokemon.ipynb
-      - 10_sql/sdss/sdss.md
-      - 10_sql/sqlzoo/sqlzoo.md
+      - A_sql/metro/metro.ipynb
+      - A_sql/pokemon/pokemon.ipynb
+      - A_sql/sdss/sdss.md
+      - A_sql/sqlzoo/sqlzoo.md
   - DS:
     - colles/oral_blanc.md
     - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
