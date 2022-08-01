@@ -6,154 +6,154 @@ docs_dir: files
 nav:
   - OCaml:
     - Cours:
-      - files/1_ocaml/1_variables.ipynb
-      - files/1_ocaml/2_fonctions.ipynb
-      - files/1_ocaml/3_conditions.ipynb
-      - files/1_ocaml/4_recursivite.ipynb
-      - files/1_ocaml/5_structures_persistantes.ipynb
-      - files/1_ocaml/6_boucles.ipynb
-      - files/1_ocaml/7_array_string.ipynb
-      - files/1_ocaml/8_types_construits.ipynb
-      - files/11_tp_additional/module/module.ipynb
+      - 1_ocaml/1_variables.ipynb
+      - 1_ocaml/2_fonctions.ipynb
+      - 1_ocaml/3_conditions.ipynb
+      - 1_ocaml/4_recursivite.ipynb
+      - 1_ocaml/5_structures_persistantes.ipynb
+      - 1_ocaml/6_boucles.ipynb
+      - 1_ocaml/7_array_string.ipynb
+      - 1_ocaml/8_types_construits.ipynb
+      - 11_tp_additional/module/module.ipynb
     - Exercices: 
-      - files/1_ocaml/tp/tp1.ipynb
-      - files/1_ocaml/tp/tp2.ipynb
-      - files/1_ocaml/tp/tp3.ipynb
-      - files/1_ocaml/tp/tp4.ipynb
-      - files/1_ocaml/tp/tp5.ipynb
-      - files/1_ocaml/tp/tp6.ipynb
+      - 1_ocaml/tp/tp1.ipynb
+      - 1_ocaml/tp/tp2.ipynb
+      - 1_ocaml/tp/tp3.ipynb
+      - 1_ocaml/tp/tp4.ipynb
+      - 1_ocaml/tp/tp5.ipynb
+      - 1_ocaml/tp/tp6.ipynb
   - Analyse de programme:
     - Cours:
-      - Complexité: files/2_analyse_programme/1_complexite/complexite.md
-      - Preuve de programme: files/2_analyse_programme/2_preuve/preuve.md
-      - Tests: files/2_analyse_programme/3_test/test_coverage_cfg.md
-      - Compléments de complexité: files/2_analyse_programme/files/4_complexite/complexite_complement.md
+      - Complexité: 2_analyse_programme/1_complexite/complexite.md
+      - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
+      - Tests: 2_analyse_programme/3_test/test_coverage_cfg.md
+      - Compléments de complexité: 2_analyse_programme/4_complexite/complexite_complement.md
     - Exercices:
-      - TD preuve de programme: files/2_analyse_programme/2_preuve/td_preuve.md
+      - TD preuve de programme: 2_analyse_programme/2_preuve/td_preuve.md
   - Structures linéaires:
     - Cours:
-      - Liste, tableau, pile, file: files/3_structure_sequentielle/1_pile_file/pile_file.md
-      - Dictionnaire et table de hachage: files/3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
+      - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
+      - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
     - Exercices:
-      - "TD 1 : pile et file": files/3_structure_sequentielle/td/td_structures1_cor.md
-      - "TD 2 : listes doublements chaînées": files/3_structure_sequentielle/td/td_structures2_cor.md
-      - "TD 3 : cycle dans une liste chaînée": files/3_structure_sequentielle/td/td_structures3/td_structures3.md
-      - "TD 4 : table de hachage": files/3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+      - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1_cor.md
+      - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
+      - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
+      - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
   - C: 
-    #- Références: files/4_c/0_references.md
+    #- Références: 4_c/0_references.md
     - Cours:
-      - files/4_c/cours/0_intro.md
-      - files/4_c/cours/1_type_base.ipynb
-      - Représentation des entiers: files/4_c/cours/1_representation/representation_entiers.md
-      - Représentation des flottants: files/4_c/cours/1_representation/representation_flottants.md
-      - files/4_c/cours/2_condition_boucle.ipynb
-      - files/4_c/cours/3_fonction.ipynb
-      - files/4_c/cours/4_pointeur.ipynb
-      - files/4_c/cours/5_struct.ipynb
-      - files/4_c/cours/6_tableau.ipynb
-      - files/4_c/cours/7_compilation/7_compilation.ipynb
-      - files/4_c/cours/files/8_string.ipynb
-      - files/4_c/cours/9_tableau_2d.ipynb
+      - 4_c/cours/0_intro.md
+      - 4_c/cours/1_type_base.ipynb
+      - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
+      - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
+      - 4_c/cours/2_condition_boucle.ipynb
+      - 4_c/cours/3_fonction.ipynb
+      - 4_c/cours/4_pointeur.ipynb
+      - 4_c/cours/5_struct.ipynb
+      - 4_c/cours/6_tableau.ipynb
+      - 4_c/cours/7_compilation/7_compilation.ipynb
+      - 4_c/cours/8_string.ipynb
+      - 4_c/cours/9_tableau_2d.ipynb
     - Exercices:
-      - files/4_c/tp/1_bitfield.ipynb
-      - files/4_c/tp/2_liste_chainee.ipynb
-      - files/4_c/tp/3_representation_binaire.ipynb
-      - files/4_c/tp/4_dyn_array.ipynb
-      - files/4_c/tp/5_string.ipynb
-      - files/4_c/tp/6_bash.ipynb
-      - files/4_c/tp/7_file/7_file.ipynb
-      - files/4_c/tp/8_sudoku.ipynb
-      - files/4_c/tp/9_bash2/9_bash2.ipynb
+      - 4_c/tp/1_bitfield.ipynb
+      - 4_c/tp/2_liste_chainee.ipynb
+      - 4_c/tp/3_representation_binaire.ipynb
+      - 4_c/tp/4_dyn_array.ipynb
+      - 4_c/tp/5_string.ipynb
+      - 4_c/tp/6_bash.ipynb
+      - 4_c/tp/7_file/7_file.ipynb
+      - 4_c/tp/8_sudoku.ipynb
+      - 4_c/tp/9_bash2/9_bash2.ipynb
   - Arbres:
     - Cours:
-      - "Arbre binaire": files/5_arbre/1_arbre_binaire/arbre_binaire.md
-      - "Parcours d'arbre": files/5_arbre/2_parcours/parcours.md
-      - "Arbre binaire de recherche": files/5_arbre/3_bst/bst.md
-      - "Arbre binaire de recherche équilibré": files/5_arbre/4_balanced_tree/balanced_tree.md
-      - "File de priorité et tas": files/5_arbre/5_heap/heap.md
+      - "Arbre binaire": 5_arbre/1_arbre_binaire/arbre_binaire.md
+      - "Parcours d'arbre": 5_arbre/2_parcours/parcours.md
+      - "Arbre binaire de recherche": 5_arbre/3_bst/bst.md
+      - "Arbre binaire de recherche équilibré": 5_arbre/4_balanced_tree/balanced_tree.md
+      - "File de priorité et tas": 5_arbre/5_heap/heap.md
     - Exercices:
-      - files/5_arbre/tp_td/tp1_arbre_binaire.ipynb
-      - "TD 2 : Preuves sur les arbres": files/5_arbre/tp_td/td2_preuves/td_preuve_arbre.md
-      - files/5_arbre/tp_td/tp3_arbre.ipynb
-      - "TD 4 : Parcours et arbre binaire de recherche": files/5_arbre/tp_td/td4_parcours/td_parcours.md
-      - "TD 5 : Arbre binaire de recherche équilibré": files/5_arbre/tp_td/td5_balanced/td_balanced.md
-      - files/5_arbre/tp_td/tp6_segment/tp_segment.ipynb
-      - "TD 7 : File de priorité et tas": files/5_arbre/tp_td/td7_heap/td_heap.md
-      - "TD 8 : Arbre croissant (X-ENS 2014)": files/5_arbre/tp_td/td8_arbre_croissant.md
+      - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
+      - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/td_preuve_arbre.md
+      - 5_arbre/tp_td/tp3_arbre.ipynb
+      - "TD 4 : Parcours et arbre binaire de recherche": 5_arbre/tp_td/td4_parcours/td_parcours.md
+      - "TD 5 : Arbre binaire de recherche équilibré": 5_arbre/tp_td/td5_balanced/td_balanced.md
+      - 5_arbre/tp_td/tp6_segment/tp_segment.ipynb
+      - "TD 7 : File de priorité et tas": 5_arbre/tp_td/td7_heap/td_heap.md
+      - "TD 8 : Arbre croissant (X-ENS 2014)": 5_arbre/tp_td/td8_arbre_croissant.md
   - Graphes:
-    - "Définitions": files/6_graph/1_definition/graph_def.md
-    - "Représentations": files/6_graph/2_representation/2_representation.md
-    - "Parcours": files/6_graph/3_traversal/3_traversal.md
-    - "Plus courts chemins": files/6_graph/4_shortest_path/graph_shortest_path.md
-    - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/files/5_graph/1_definition/1_graph/
+    - "Définitions": 6_graph/1_definition/graph_def.md
+    - "Représentations": 6_graph/2_representation/2_representation.md
+    - "Parcours": 6_graph/3_traversal/3_traversal.md
+    - "Plus courts chemins": 6_graph/4_shortest_path/graph_shortest_path.md
+    - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/5_graph/1_definition/1_graph/
     - TP/TD:
-      - "TD 1 : Définitions": files/6_graph/td/1_definition/td_graphes1.md
-      - "TD 2 : Représentations et parcours": files/6_graph/td/2_representation_traversal/td_graphes2.md
-      - "TD 3 : Plus courts chemins": files/6_graph/td/4_shortest_paths/td_shortest.md
-      - "Concours Mines-Pont 2016": files/6_graph/td/mines16.pdf
-      - files/6_graph/tp/tp_shortest.ipynb
+      - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
+      - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
+      - "TD 3 : Plus courts chemins": 6_graph/td/4_shortest_paths/td_shortest.md
+      - "Concours Mines-Pont 2016": 6_graph/td/mines16.pdf
+      - 6_graph/tp/tp_shortest.ipynb
   - Algorithmique:
     - Cours:
-      - "Algorithmes gloutons": files/7_algo/1_greedy/algo_greedy.md
-      - "Diviser pour régner": files/7_algo/2_divide_conquer/divide_conquer.md
-      - "Programmation dynamique": files/7_algo/3_dyn_prog/dyn_prog.md
+      - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
+      - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
+      - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
     - Exercices:
-      - "TD 1 : Algorithmes gloutons et diviser pour régner": files/7_algo/2_divide_conquer/td/td_div_greedy.md
-      - "TD 2 : Programmation dynamique": files/7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
+      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
+      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
   - "Algorithmique du texte":
     - Cours:
-      - "Recherche de mot dans un texte": files/8_string/1_search/search.md
-      - "Compression de texte": files/8_string/2_compression/compression.md
-      - files/8_string/2_compression/compression_code.ipynb
+      - "Recherche de mot dans un texte": 8_string/1_search/search.md
+      - "Compression de texte": 8_string/2_compression/compression.md
+      - 8_string/2_compression/compression_code.ipynb
     - Exercices:
-      - "TD : Algorithmique sur les chaînes de caractères": files/8_string/td/td_string_search.md
-      - files/8_string/tp/tp1_string_search.ipynb
-      - files/8_string/td/cmp22.ipynb
+      - "TD : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
+      - 8_string/tp/tp1_string_search.ipynb
+      - 8_string/td/cmp22.ipynb
   - Logique:
     - Cours:
-      - "Logique propositionelle : Syntaxe": files/9_logic/1_syntax_propositional/syntax_propositional.md
-      - "Logique propositionelle : Sémantique": files/9_logic/2_semantic_propositional/semantic_propositional.md
-      - "Problème SAT": files/9_logic/3_sat/sat.md
-      - "Algorithme de Quine et backtracking": files/9_logic/4_quine/quine.md
-      - files/9_logic/logic.ipynb
+      - "Logique propositionelle : Syntaxe": 9_logic/1_syntax_propositional/syntax_propositional.md
+      - "Logique propositionelle : Sémantique": 9_logic/2_semantic_propositional/semantic_propositional.md
+      - "Problème SAT": 9_logic/3_sat/sat.md
+      - "Algorithme de Quine et backtracking": 9_logic/4_quine/quine.md
+      - 9_logic/logic.ipynb
     - Exercices:
-      - "TD Logique 1": files/9_logic/td/td1/td_logique.md
+      - "TD Logique 1": 9_logic/td/td1/td_logique.md
       - "X-ENS 2016 : Problème 2-SAT": https://www.ens.psl.eu/IMG/file/concours/2016/sujets/MPI/16_mpi_sujet_infoa.pdf
-      - files/9_logic/td/xens_sat.ipynb
-      - files/9_logic/td/solver/solver.ipynb
+      - 9_logic/td/xens_sat.ipynb
+      - 9_logic/td/solver/solver.ipynb
   - SQL:
     - Cours:
-      - "Cours 1 : Une seule table": files/10_sql/1_select/sql_select.md
-      - "Cours 2 : Plusieurs tables": files/10_sql/2_join/sql_join.md
-      - "Cours 3 : GROUP BY": files/10_sql/3_groupby/sql_groupby.md
-      - "Cours 4 : SELECT imbriqués": files/10_sql/4_imbrique/sql_imbrique.md
-      - "Cours 5 : Modèle entité-association": files/10_sql/5_er/er.md
-      - Résumé: files/10_sql/resume/sql_resume.md
+      - "Cours 1 : Une seule table": 10_sql/1_select/sql_select.md
+      - "Cours 2 : Plusieurs tables": 10_sql/2_join/sql_join.md
+      - "Cours 3 : GROUP BY": 10_sql/3_groupby/sql_groupby.md
+      - "Cours 4 : SELECT imbriqués": 10_sql/4_imbrique/sql_imbrique.md
+      - "Cours 5 : Modèle entité-association": 10_sql/5_er/er.md
+      - Résumé: 10_sql/resume/sql_resume.md
     - Exercices:
-      - files/10_sql/metro/metro.ipynb
-      - files/10_sql/pokemon/pokemon.ipynb
-      - files/10_sql/sdss/sdss.md
-      - files/10_sql/sqlzoo/sqlzoo.md
+      - 10_sql/metro/metro.ipynb
+      - 10_sql/pokemon/pokemon.ipynb
+      - 10_sql/sdss/sdss.md
+      - 10_sql/sqlzoo/sqlzoo.md
   - DS:
-    - files/colles/oral_blanc.md
-    - "DS 9 : Corrigé": files/ds/ds9/cor/ds9_cor.md
-    - "DS 9 : Code": files/ds/ds9/cor/agreg_22_sujet0_cor.ipynb
-    - "DS 8 : Corrigé": files/ds/ds8/cs1files/4_cor.md
-    - "DS 7 : Corrigé": files/ds/ds7/ds7_cor.ipynb
-    - "DS 6 : Corrigé": files/ds/ds6/cs_vote_2020.ipynb
-    - "DS 6 : Classement": files/ds/ds6/ds6.png
-    - "DS 5 : Corrigé partiel": files/ds/ds5/cor/cs21_cor.md
-    - "DS 5 : Classement": files/ds/ds5/rank_ds5.png
-    - "DS 5 : Notebook pour le corrigé partiel": files/ds/ds5/cor/cs21_cor_nb.ipynb
-    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": files/ds/ds5/cs21.md
-    - "DS 5 : Rapport": files/ds/ds5/cs21_rapport.md
-    - "DS 4 : Arbres binaires, matrices et chaînes de caractères": files/ds/ds4/ds4.md
-    - "DS 4 : Classement": files/ds/ds4/rank_ds4.png
-    - "DS 3 : C, représentation des nombres": files/ds/ds3/ds3.md
-    - "DS 3 : Classement": files/ds/ds3/ds3.png
-    - "DS 2 : Type, pile, file, dictionnaire": files/ds/ds2/ds2.md
-    - "DS 2 : Classement": files/ds/ds2/rank_ds2.png
-    - "DS 1 : OCaml, complexité, algorithmique": files/ds/ds1/ds1.md
+    - colles/oral_blanc.md
+    - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
+    - "DS 9 : Code": ds/ds9/cor/agreg_22_sujet0_cor.ipynb
+    - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
+    - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
+    - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
+    - "DS 6 : Classement": ds/ds6/ds6.png
+    - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
+    - "DS 5 : Classement": ds/ds5/rank_ds5.png
+    - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
+    - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": ds/ds5/cs21.md
+    - "DS 5 : Rapport": ds/ds5/cs21_rapport.md
+    - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
+    - "DS 4 : Classement": ds/ds4/rank_ds4.png
+    - "DS 3 : C, représentation des nombres": ds/ds3/ds3.md
+    - "DS 3 : Classement": ds/ds3/ds3.png
+    - "DS 2 : Type, pile, file, dictionnaire": ds/ds2/ds2.md
+    - "DS 2 : Classement": ds/ds2/rank_ds2.png
+    - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
     - "DM 2 : Corrigé": https://github.com/mp2i-info/mp2i-info.github.io/blob/main/dm/fft/fft.ml
 plugins:
