@@ -162,8 +162,8 @@ plugins:
 theme:
   name: material
   custom_dir: files/site/overrides
-  logo: site/icon.png
-  favicon: site/icon.png
+  logo: https://github.com/fortierq/tikz/raw/c6704e7fb674db478f7c1e062726bc8fb21e3ab1/other/mp2i/mp2i.png
+  favicon: https://github.com/fortierq/tikz/raw/c6704e7fb674db478f7c1e062726bc8fb21e3ab1/other/mp2i/mp2i.png
   features:
     - navigation.instant
     - content.code.annotate
