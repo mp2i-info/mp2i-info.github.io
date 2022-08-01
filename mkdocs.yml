@@ -163,7 +163,7 @@ theme:
   name: material
   custom_dir: files/site/overrides
   logo: https://raw.githubusercontent.com/fortierq/tikz/master/other/mp2i/mp2i.png
-  favicon: https://raw.githubusercontent.com/fortierq/tikz/master/other/mp2i/mp2i.png
+  favicon: site/icon.png
   features:
     - navigation.instant
     - content.code.annotate
