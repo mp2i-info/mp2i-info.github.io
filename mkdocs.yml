@@ -2,6 +2,7 @@ site_name: "Cours d'informatique en MP2I"
 site_url: https://mp2i-info.github.io
 repo_url: https://github.com/mp2i-info/mp2i-info.github.io
 edit_uri: ""
+docs_dir: files
 nav:
   - OCaml:
     - Cours:
@@ -160,7 +161,7 @@ plugins:
   - search
 theme:
   name: material
-  custom_dir: site/overrides
+  custom_dir: files/site/overrides
   logo: site/icon.png
   favicon: site/icon.png
   features:
