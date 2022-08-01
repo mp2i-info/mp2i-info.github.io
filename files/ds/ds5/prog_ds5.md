@@ -1,0 +1,5 @@
+- Tas, file de priorité
+- Graphes : représentation matricielle et par liste d'adjacence.
+- Parcours de graphe : dfs, bfs (les 2 implémentations à chaque fois)
+- Connexité : définition, recherche de plus court chemin avec bfs
+- Arbres comme des graphes acycliques connexes, définition/démo équivalence arbres 
