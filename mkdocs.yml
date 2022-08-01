@@ -135,7 +135,7 @@ nav:
       - files/10_sql/sdss/sdss.md
       - files/10_sql/sqlzoo/sqlzoo.md
   - DS:
-    - colles/oral_blanc.md
+    - files/colles/oral_blanc.md
     - "DS 9 : Corrigé": files/ds/ds9/cor/ds9_cor.md
     - "DS 9 : Code": files/ds/ds9/cor/agreg_22_sujet0_cor.ipynb
     - "DS 8 : Corrigé": files/ds/ds8/cs1files/4_cor.md
