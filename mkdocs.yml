@@ -162,8 +162,8 @@ plugins:
 theme:
   name: material
   custom_dir: files/site/overrides
-  logo: site/icon.png
-  favicon: site/icon.png
+  logo: https://raw.githubusercontent.com/fortierq/tikz/master/other/mp2i/mp2i.png
+  favicon: https://raw.githubusercontent.com/fortierq/tikz/master/other/mp2i/mp2i.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -182,15 +182,6 @@ theme:
     - scheme: default
       primary: indigo
       accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch-off-outline
-    #     name: Switch to dark mode
-    # - scheme: slate
-    #   primary: red
-    #   accent: red
-    #   toggle:
-    #     icon: material/toggle-switch
-    #     name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
