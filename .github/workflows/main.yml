@@ -22,7 +22,7 @@ jobs:
       - name: add_link
         uses: fortierq/add-binder-link-action@latest
         with:
-          env: 'fortierq/binder-mp2i'
+          env: 'mp2i-info/mp2i-binder'
           branch-env: 'main'
           server: 'basthon'
           force: true
