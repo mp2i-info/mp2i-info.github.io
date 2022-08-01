@@ -29,9 +29,7 @@ jobs:
     
       - name: mkdocs
         run: |
-          pip install pygments==2.11 mkdocs-material jupyter # mkdocs-jupyter
-          # pip install git+https://github.com/fortierq/mkdocs-jupyter.git
-          mkdir -p docs
+          pip install pygments==2.11 mkdocs-material
           TMP_DIR=$(mktemp -d)
           
           DIR=$(pwd)
@@ -41,25 +39,14 @@ jobs:
           cd ../..
           pip install ./mkdocs-jupyter/
           cd $DIR
-          
-          mv .git $TMP_DIR
-          mv mkdocs.yml $TMP_DIR
-          mv site/overrides $TMP_DIR
-          mv * docs/ || true
-          mv $TMP_DIR/mkdocs.yml .
-          mv $TMP_DIR/.git .
-          mv $TMP_DIR/overrides .
-
-          cd docs
+      
           for file in $(find . -type f -name "*.pdf"); do
             fit=Fit
             name=$(basename $file)
-            if [[ $name == td* ]] || [[ $name == TD* ]];
+            if [[ $name == td* ]] || [[ $name == TD* ]] || [[ $name == tp* ]] || [[ $name == TP* ]];
             then 
               fit=FitW
             fi
             echo "<iframe src=../${name}#view=$fit&navpanes=0&statusbar=0 height=700 width=100%></iframe>" > ${file%.*}.md
           done
-          cd ..
-
           mkdocs gh-deploy --force
