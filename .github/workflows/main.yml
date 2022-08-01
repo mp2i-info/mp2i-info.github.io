@@ -25,7 +25,7 @@ jobs:
           env: 'mp2i-info/mp2i-binder'
           branch-env: 'main'
           server: 'basthon'
-          force: true
+          force: false
     
       - name: mkdocs
         run: |
