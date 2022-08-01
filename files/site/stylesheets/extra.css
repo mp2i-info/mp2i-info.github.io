@@ -9,6 +9,13 @@
     right: 0;
     margin-left: 0;
     -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
     transform: none;   
   }
+}
+
+.md-typeset img, .md-typeset svg {
+    height: 100%;
 }
