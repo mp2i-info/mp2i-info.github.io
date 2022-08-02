@@ -14,7 +14,7 @@ nav:
       - 1_ocaml/6_boucles.ipynb
       - 1_ocaml/7_array_string.ipynb
       - 1_ocaml/8_types_construits.ipynb
-      - 11_tp_additional/module/module.ipynb
+      - 1_ocaml/9_module.ipynb
     - Exercices: 
       - 1_ocaml/tp/tp1.ipynb
       - 1_ocaml/tp/tp2.ipynb
