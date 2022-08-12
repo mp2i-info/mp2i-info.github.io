@@ -2,7 +2,8 @@ site_name: "Cours d'informatique en MP2I"
 site_url: https://mp2i-info.github.io
 repo_url: https://github.com/mp2i-info/mp2i-info.github.io
 edit_uri: ""
-docs_dir: nav:
+docs_dir: files
+nav:
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
