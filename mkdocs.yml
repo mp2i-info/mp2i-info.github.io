@@ -162,7 +162,7 @@ plugins:
   - search
 theme:
   name: material
-  custom_dir: site/overrides
+  custom_dir: files/site/overrides
   logo: site/icon.png
   favicon: site/icon.png
   features:
