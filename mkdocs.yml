@@ -161,8 +161,8 @@ plugins:
 theme:
   name: material
   custom_dir: files/site/overrides
-  logo: site/icon.png
-  favicon: site/icon.png
+  logo: site/mp2i.png
+  favicon: site/mp2i.png
   features:
     - navigation.instant
     - content.code.annotate
