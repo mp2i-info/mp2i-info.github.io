@@ -35,10 +35,10 @@ nav:
       - Liste, tableau, pile, file: 3_structure_sequentielle/1_pile_file/pile_file.md
       - Dictionnaire et table de hachage: 3_structure_sequentielle/2_hachage_dictionnaire/hachage.md
     - Exercices:
-      - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1_cor.md
-      - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2_cor.md
+      - "TD 1 : pile et file": 3_structure_sequentielle/td/td_structures1.md
+      - "TD 2 : listes doublements chaînées": 3_structure_sequentielle/td/td_structures2.md
       - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
-      - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
+      - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18.md
   - C: 
     - Cours:
       - 4_c/cours/1_type_base.ipynb
@@ -135,15 +135,15 @@ nav:
       - Énigme à résoudre en SQL : https://mystery.knightlab.com
   - DS:
     - colles/oral_blanc.md
-    - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
-    - "DS 9 : Code": ds/ds9/cor/agreg_22_sujet0_cor.ipynb
-    - "DS 8 : Corrigé": ds/ds8/cs14_cor.md
-    - "DS 7 : Corrigé": ds/ds7/ds7_cor.ipynb
+    - "DS 9 : Corrigé": ds/ds9/cor/ds9.md
+    - "DS 9 : Code": ds/ds9/cor/agreg_22_sujet0.ipynb
+    - "DS 8 : Corrigé": ds/ds8/cs14.md
+    - "DS 7 : Corrigé": ds/ds7/ds7.ipynb
     - "DS 6 : Corrigé": ds/ds6/cs_vote_2020.ipynb
     - "DS 6 : Classement": ds/ds6/ds6.png
-    - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21_cor.md
+    - "DS 5 : Corrigé partiel": ds/ds5/cor/cs21.md
     - "DS 5 : Classement": ds/ds5/rank_ds5.png
-    - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_cor_nb.ipynb
+    - "DS 5 : Notebook pour le corrigé partiel": ds/ds5/cor/cs21_nb.ipynb
     - "DS 5 : Arbres couvrants et pavages (Centrale 2021)": ds/ds5/cs21.md
     - "DS 5 : Rapport": ds/ds5/cs21_rapport.md
     - "DS 4 : Arbres binaires, matrices et chaînes de caractères": ds/ds4/ds4.md
