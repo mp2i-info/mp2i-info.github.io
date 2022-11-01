@@ -83,7 +83,7 @@ nav:
     - "Représentations": 6_graph/2_representation/2_representation.md
     - "Parcours": 6_graph/3_traversal/3_traversal.md
     - "Plus courts chemins": 6_graph/4_shortest_path/graph_shortest_path.md
-    - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/5_graph/1_definition/1_graph/
+    - "Cours de graphes en info commune (Python)": https://cpge-itc.github.io/itc1
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
       - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
