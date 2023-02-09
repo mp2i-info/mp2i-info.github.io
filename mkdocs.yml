@@ -121,10 +121,10 @@ nav:
       - 9_logic/td/solver/solver.ipynb
   - SQL:
     - Cours:
-      - "Cours 1 : Une seule table": A_sql/1_select/sql_select.md
-      - "Cours 2 : Plusieurs tables": A_sql/2_join/sql_join.md
-      - "Cours 3 : GROUP BY": A_sql/3_groupby/sql_groupby.md
-      - "Cours 4 : SELECT imbriqués": A_sql/4_imbrique/sql_imbrique.md
+      - "Cours 1 : Une seule table": A_sql/1_select/select.md
+      - "Cours 2 : Plusieurs tables": A_sql/2_join/join.md
+      - "Cours 3 : GROUP BY": A_sql/3_groupby/groupby.md
+      - "Cours 4 : SELECT imbriqués": A_sql/4_imbrique/imbrique.md
       - "Cours 5 : Modèle entité-association": A_sql/5_er/er.md
       - Résumé: A_sql/resume/sql_resume.md
     - Exercices:
