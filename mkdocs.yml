@@ -128,7 +128,7 @@ nav:
       - "Cours 5 : Modèle entité-association": A_sql/5_er/er.md
       - Résumé: A_sql/resume/sql_resume.md
     - Exercices:
-      - Exercices SQL en ligne: https://cours-sql.github.io
+      - Exercices SQL en ligne: https://sql-exercices.github.io
       - A_sql/sdss/sdss.md
       - A_sql/sqlzoo/sqlzoo.md
       - Énigme à résoudre en SQL: https://mystery.knightlab.com
