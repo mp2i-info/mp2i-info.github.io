@@ -132,6 +132,7 @@ nav:
       - A_sql/sdss/sdss.md
       - A_sql/sqlzoo/sqlzoo.md
       - Énigme à résoudre en SQL: https://mystery.knightlab.com
+  - Cours MPI: https://mpi-lamartin.github.io/mpi-info
 plugins:
   - mkdocs-jupyter
   - search
@@ -180,3 +181,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - site/stylesheets/extra.css
+
