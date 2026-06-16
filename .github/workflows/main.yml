@@ -29,7 +29,7 @@ jobs:
     
       - name: mkdocs
         run: |
-          pip install pygments==2.11 mkdocs-material "mkdocs>=1.4,<1.5"
+          pip install pygments==2.11 mkdocs-material "mkdocs>=1.4,<1.5" lxml_html_clean
           TMP_DIR=$(mktemp -d)
           
           DIR=$(pwd)
